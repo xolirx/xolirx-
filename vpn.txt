@@ -19,7 +19,7 @@ vless://InternetAzadRobot-AliKiller@fastly.com:80?type=xhttp&security=none&path=
 vless://TIGNAL-CRYPTO@151.101.129.57:80?type=xhttp&security=none&path=%2F&host=InternetAzadRobot07gt745.global.ssl.fastly.net&mode=auto#🇦🇱 XolirX #12
 vless://TIGNAL-CRYPTO@151.101.65.57:80?type=xhttp&security=none&path=%2F&host=InternetAzadRobot07gt745.global.ssl.fastly.net&mode=auto#🇦🇱 XolirX #13
 vless://TOFAN-TRADE@151.101.129.57:80?type=xhttp&security=none&path=/&host=InternetAzadRobot07gt745.global.ssl.fastly.net&mode=auto#🇦🇱 XolirX #14
-vless://TOFAN-TRADE@151.101.193.57:80?type=xhttp&security=none&path=/&host=InternetAzadRobot07gt745.global.ssl.fastly.net&mode=auto#🇦🇱 XolirX #15
+
 vless://TOFAN-TRADE@fastly.com:80?type=xhttp&security=none&path=/&host=InternetAzadRobot07gt745.global.ssl.fastly.net&mode=auto#🇦🇱 XolirX #16
 vless://6ffe1f8d-f841-4a1e-aa9b-61ba098f0987@151.101.109.61:443?type=xhttp&headerType=none&security=tls&encryption=none&sni=127.0.0&fp=chrome&alpn=h3&path=%2F&host=ov1.global.ssl.fastly.net&insecure=1#🇦🇱 XolirX #17
 vless://5b6e7300-8fc8-404e-8dc9-40a5393dd881@fx3033.game2lizard.com:80?encryption=none&type=ws&path=/XnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn?ed=2560&host=line.smartphone1.azazilvpn.sbs#🇦🇱 XolirX #18
