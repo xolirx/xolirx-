@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: '🇦🇱 XolirX #1'
+- name: 'XolirX #1'
   type: vless
   server: 151.101.0.223
   port: 80
@@ -21,7 +21,7 @@ proxies:
     headers:
       Host:
       - service28342.global.ssl.fastly.net
-- name: '🇦🇱 XolirX #2'
+- name: 'XolirX #2'
   type: vless
   server: belgium.cloudpath.live
   port: 443
@@ -36,7 +36,7 @@ proxies:
     public-key: 9HzeVOO-_7-V3l4TCNqgO-cj32nlF3wsG8K4X3qFmFw
     short-id: cc52201b
   network: tcp
-- name: '🇦🇱 XolirX #3'
+- name: 'XolirX #3'
   type: vless
   server: bosnia.cloudpath.live
   port: 443
@@ -51,7 +51,7 @@ proxies:
     public-key: 9u-7S-wIZ2vptWtSX32bZ3DWK2KiEBjxJs0Fsx3nJn4
     short-id: b6dbe6b9
   network: tcp
-- name: '🇦🇱 XolirX #4'
+- name: 'XolirX #4'
   type: vless
   server: denmark.cloudpath.live
   port: 443
@@ -66,7 +66,7 @@ proxies:
     public-key: 8H8GZYml4FGVF9EcnZsUTOt0lFiIh20vS9TnX4Dn-z8
     short-id: 2721a041
   network: tcp
-- name: '🇦🇱 XolirX #5'
+- name: 'XolirX #5'
   type: vless
   server: estonia.cloudpath.live
   port: 443
@@ -81,7 +81,7 @@ proxies:
     public-key: yBrF1OAz3Rq2cyQkPytpsVNgbqAW5J7C5jE2ZWJkMBo
     short-id: 5674d66f
   network: tcp
-- name: '🇦🇱 XolirX #6'
+- name: 'XolirX #6'
   type: vless
   server: finland.cloudpath.live
   port: 443
@@ -96,7 +96,7 @@ proxies:
     public-key: f7IfVwkipbZFQN0MDsBrHiANTcpSebrdIyOwL_0pOGc
     short-id: 2478b338
   network: tcp
-- name: '🇦🇱 XolirX #7'
+- name: 'XolirX #7'
   type: vless
   server: 217.60.252.90
   port: 25645
@@ -111,7 +111,7 @@ proxies:
     public-key: GnAQ0pqW4HGqMuOY7crTmcQ56FuABKPP9YaiJzOS3X8
     short-id: d6372f1a0a
   network: tcp
-- name: '🇦🇱 XolirX #8'
+- name: 'XolirX #8'
   type: vless
   server: sina.35o.ir
   port: 25645
@@ -126,7 +126,7 @@ proxies:
     public-key: GnAQ0pqW4HGqMuOY7crTmcQ56FuABKPP9YaiJzOS3X8
     short-id: d6372f1a0a
   network: tcp
-- name: '🇦🇱 XolirX #9'
+- name: 'XolirX #9'
   type: vless
   server: france.cloudpath.live
   port: 443
@@ -141,7 +141,7 @@ proxies:
     public-key: dp4zdTaX89_Ls34gM_x8BSBTx50p4X7asR3H1q_jIn4
     short-id: b00e098b
   network: tcp
-- name: '🇦🇱 XolirX #10'
+- name: 'XolirX #10'
   type: vless
   server: cdn-de-1.bigbossvpn.online
   port: 8443
@@ -156,7 +156,7 @@ proxies:
     public-key: OAKZv1BA4SuH3tEQGf24i9ZJiKbYQoWoVZwrUdARQwU
     short-id: 14a3a07e185c653f
   network: tcp
-- name: '🇦🇱 XolirX #11'
+- name: 'XolirX #11'
   type: vless
   server: auto.datamove.online
   port: 2040
@@ -171,7 +171,7 @@ proxies:
     public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
     short-id: 53197c66aef53c44
   network: tcp
-- name: '🇦🇱 XolirX #12'
+- name: 'XolirX #12'
   type: vless
   server: germ-node.datamove.online
   port: 2040
@@ -186,7 +186,7 @@ proxies:
     public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
     short-id: 53197c66aef53c44
   network: tcp
-- name: '🇦🇱 XolirX #13'
+- name: 'XolirX #13'
   type: vless
   server: nl-amst1-node.datamove.online
   port: 2040
@@ -201,7 +201,7 @@ proxies:
     public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
     short-id: 53197c66aef53c44
   network: tcp
-- name: '🇦🇱 XolirX #14'
+- name: 'XolirX #14'
   type: vless
   server: 167.82.101.147
   port: 80
@@ -217,7 +217,7 @@ proxies:
     headers:
       Host:
       - vexikaos9201.global.ssl.fastly.net
-- name: '🇦🇱 XolirX #15'
+- name: 'XolirX #15'
   type: vless
   server: dm.mega-bollywood.ir
   port: 80
@@ -233,7 +233,7 @@ proxies:
     headers:
       Host:
       - speedup58.global.ssl.fastly.net
-- name: '🇦🇱 XolirX #16'
+- name: 'XolirX #16'
   type: vless
   server: cdn-a9027cc2.glomedia-cdn.com
   port: 2053
@@ -250,7 +250,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
-- name: '🇦🇱 XolirX #17'
+- name: 'XolirX #17'
   type: vless
   server: greece.cloudpath.live
   port: 443
@@ -265,7 +265,7 @@ proxies:
     public-key: 46Ehh0qqHsj79Ogrkx_xoCl5VA_OmAGSGxHZ4KIKA1U
     short-id: c4d97649
   network: tcp
-- name: '🇦🇱 XolirX #18'
+- name: 'XolirX #18'
   type: vless
   server: hungary.cloudpath.live
   port: 443
@@ -280,7 +280,7 @@ proxies:
     public-key: qa6dtExYCAVoxRNSfoyuz9JRM9nq475NbuW-P6aJyS0
     short-id: d0c2ffdf
   network: tcp
-- name: '🇦🇱 XolirX #19'
+- name: 'XolirX #19'
   type: vless
   server: ireland.cloudpath.live
   port: 443
@@ -295,7 +295,7 @@ proxies:
     public-key: tQhDG2dne36AOrx4oQBItqltCR-gXrIrKz1PgAFvZTU
     short-id: 533c56d7
   network: tcp
-- name: '🇦🇱 XolirX #20'
+- name: 'XolirX #20'
   type: vless
   server: vpn.mbenet.ru
   port: 5900
@@ -309,7 +309,7 @@ proxies:
     public-key: AN_uTaaDUft75ByMdsvLP_K460gl-LO0f8vuZkmAPUM
     short-id: 1004626b
   network: tcp
-- name: '🇦🇱 XolirX #21'
+- name: 'XolirX #21'
   type: vless
   server: fvpn.me
   port: 443
@@ -324,7 +324,7 @@ proxies:
     path: '%2Fws'
     headers:
       Host: fvpn.me
-- name: '🇦🇱 XolirX #22'
+- name: 'XolirX #22'
   type: vless
   server: liechtenstein.cloudpath.live
   port: 443
@@ -339,7 +339,7 @@ proxies:
     public-key: UK73Vu9F1JwIHfDbb3TIRMsQChYTaJX6K7klhvtdUh8
     short-id: 0916aa2b
   network: tcp
-- name: '🇦🇱 XolirX #23'
+- name: 'XolirX #23'
   type: vless
   server: susp.cloudpath.live
   port: 443
@@ -354,7 +354,7 @@ proxies:
     public-key: vQq6jRH1DI-wgPIx9zdQ6mtgYu9RK9MYAAX89qRu0hY
     short-id: 9bd2e733
   network: tcp
-- name: '🇦🇱 XolirX #24'
+- name: 'XolirX #24'
   type: vless
   server: serbia.cloudpath.live
   port: 443
@@ -369,7 +369,7 @@ proxies:
     public-key: UOp1SM7b6AgDZAwQ6aTLGzCyKv-K6Xxkiedp2619jwc
     short-id: 857ec9a9
   network: tcp
-- name: '🇦🇱 XolirX #25'
+- name: 'XolirX #25'
   type: vless
   server: vsgch.mostserv.xyz
   port: 443
@@ -384,7 +384,7 @@ proxies:
     public-key: 3WzSgL8uXA3vE3IHrfdBpJmOO4MYrsWpczDSY_jJRjI
     short-id: 226509f017e4c36d
   network: tcp
-- name: '🇦🇱 XolirX #26'
+- name: 'XolirX #26'
   type: vless
   server: slovakia.cloudpath.live
   port: 443
@@ -399,7 +399,7 @@ proxies:
     public-key: rvgL4jkchAJf4frvRTha9s1HHmVbhKIQvmXDWdnNJ3M
     short-id: 6aa3a89e
   network: tcp
-- name: '🇦🇱 XolirX #27'
+- name: 'XolirX #27'
   type: vless
   server: slovenia.cloudpath.live
   port: 443
@@ -414,7 +414,7 @@ proxies:
     public-key: -9ubngsmQNbnIihwlVPfAlnMfqsLShGOTLHJ5E6HZi0
     short-id: 0f74641a
   network: tcp
-- name: '🇦🇱 XolirX #28'
+- name: 'XolirX #28'
   type: vless
   server: sweden.cloudpath.live
   port: 443
@@ -429,7 +429,7 @@ proxies:
     public-key: QlU9N0pOM_MrRXMILFcsTjrYD3SJzLvavAK8fIqcwFs
     short-id: 6a0d77bf
   network: tcp
-- name: '🇦🇱 XolirX #29'
+- name: 'XolirX #29'
   type: vless
   server: 83.228.226.72
   port: 34129
@@ -444,7 +444,7 @@ proxies:
     public-key: iQnJ9plqBA9JIc8tnQGYaiuE3EnhOxl9jWGnVyJTWV0
     short-id: 5d9b8a
   network: tcp
-- name: '🇦🇱 XolirX #30'
+- name: 'XolirX #30'
   type: vless
   server: switzerland.cloudpath.live
   port: 443
@@ -459,7 +459,7 @@ proxies:
     public-key: pgPg0nR_TipYr_exLqa3gLOBLm6u_LCZLv9w6RC6iQ0
     short-id: eb4b5cf9
   network: tcp
-- name: '🇦🇱 XolirX #31'
+- name: 'XolirX #31'
   type: vless
   server: netherlands.cloudpath.live
   port: 443
@@ -474,7 +474,7 @@ proxies:
     public-key: qYgTAtJIMVifoHx1N1YPJES2BRDQakcKuGJhDOswmy8
     short-id: afb09616
   network: tcp
-- name: '🇦🇱 XolirX #32'
+- name: 'XolirX #32'
   type: vless
   server: vnldc.mostserv.xyz
   port: 443
@@ -489,7 +489,7 @@ proxies:
     public-key: 3WzSgL8uXA3vE3IHrfdBpJmOO4MYrsWpczDSY_jJRjI
     short-id: 226509f017e4c36d
   network: tcp
-- name: '🇦🇱 XolirX #33'
+- name: 'XolirX #33'
   type: vless
   server: panel.96s.ir
   port: 8080
@@ -511,7 +511,7 @@ proxies:
     headers:
       Host:
       - panel.96s.ir
-- name: '🇦🇱 XolirX #34'
+- name: 'XolirX #34'
   type: vless
   server: 45.67.136.184
   port: 7443
@@ -526,7 +526,7 @@ proxies:
     public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
     short-id: be0ce047
   network: tcp
-- name: '🇦🇱 XolirX #35'
+- name: 'XolirX #35'
   type: vless
   server: w.sni.global.fastly.net
   port: 80
@@ -542,7 +542,7 @@ proxies:
     headers:
       Host:
       - meksowpap22.alikosa9020.cfd
-- name: '🇦🇱 XolirX #36'
+- name: 'XolirX #36'
   type: vless
   server: 31.59.36.107
   port: 443
@@ -557,7 +557,7 @@ proxies:
     public-key: mDDDyruO33nuqcTS7pZOjd9oOpDHUf0aEv2TQ1DFGV4
     short-id: ''
   network: tcp
-- name: '🇦🇱 XolirX #37'
+- name: 'XolirX #37'
   type: vless
   server: ukreal.greewebservices.ir
   port: 4404
@@ -572,7 +572,7 @@ proxies:
     public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
     short-id: e3085d4fc679ba12
   network: tcp
-- name: '🇦🇱 XolirX #38'
+- name: 'XolirX #38'
   type: vless
   server: 185.143.235.201
   port: 2095
@@ -585,7 +585,7 @@ proxies:
     path: /rat
     headers:
       Host: rat.skycmd.org
-- name: '🇦🇱 XolirX #39'
+- name: 'XolirX #39'
   type: vless
   server: 173.242.123.189
   port: 51042
@@ -601,7 +601,7 @@ proxies:
     path: '%2FTG%40wxgqlfx'
     headers:
       Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #40'
+- name: 'XolirX #40'
   type: vless
   server: 179.43.144.10
   port: 8000
@@ -617,7 +617,7 @@ proxies:
     path: '%2FTG%40wxgqlfx'
     headers:
       Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #41'
+- name: 'XolirX #41'
   type: vless
   server: 185.223.169.157
   port: 443
@@ -633,7 +633,7 @@ proxies:
     path: '%2FTG%40wxgqlfx'
     headers:
       Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #42'
+- name: 'XolirX #42'
   type: vless
   server: 185.235.131.40
   port: 2053
@@ -649,7 +649,7 @@ proxies:
     path: '%2FTG%40wxgqlfx'
     headers:
       Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #43'
+- name: 'XolirX #43'
   type: vless
   server: 195.133.17.188
   port: 2053
@@ -665,7 +665,7 @@ proxies:
     path: '%2FTG%40wxgqlfx'
     headers:
       Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #44'
+- name: 'XolirX #44'
   type: vless
   server: 198.57.46.6
   port: 443
@@ -681,7 +681,7 @@ proxies:
     path: '%2FTG%40wxgqlfx'
     headers:
       Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #45'
+- name: 'XolirX #45'
   type: vless
   server: 45.154.35.30
   port: 2053
@@ -697,7 +697,7 @@ proxies:
     path: '%2FTG%40wxgqlfx'
     headers:
       Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #46'
+- name: 'XolirX #46'
   type: vless
   server: 5.101.180.145
   port: 443
@@ -713,7 +713,7 @@ proxies:
     path: '%2FTG%40wxgqlfx'
     headers:
       Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #47'
+- name: 'XolirX #47'
   type: vless
   server: 5.180.98.146
   port: 22827
@@ -729,7 +729,7 @@ proxies:
     path: '%2FTG%40wxgqlfx'
     headers:
       Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #48'
+- name: 'XolirX #48'
   type: vless
   server: 67.209.183.236
   port: 443
@@ -745,7 +745,7 @@ proxies:
     path: '%2FTG%40wxgqlfx'
     headers:
       Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #49'
+- name: 'XolirX #49'
   type: vless
   server: 74.48.140.177
   port: 443
@@ -761,7 +761,7 @@ proxies:
     path: '%2FTG%40wxgqlfx'
     headers:
       Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #50'
+- name: 'XolirX #50'
   type: vless
   server: vrubg.mostserv.xyz
   port: 443
@@ -776,7 +776,7 @@ proxies:
     public-key: 3WzSgL8uXA3vE3IHrfdBpJmOO4MYrsWpczDSY_jJRjI
     short-id: 226509f017e4c36d
   network: tcp
-- name: '🇦🇱 XolirX #51'
+- name: 'XolirX #51'
   type: vless
   server: 37.77.106.32
   port: 13343
@@ -791,7 +791,7 @@ proxies:
     public-key: MIs98I7LawHDr-TGlrEguEWcPQlaxoRMQW6zX9LaeUM
     short-id: 40de4492e7
   network: tcp
-- name: '🇦🇱 XolirX #52'
+- name: 'XolirX #52'
   type: vless
   server: 37.77.106.32
   port: 13343
@@ -806,7 +806,7 @@ proxies:
     public-key: MIs98I7LawHDr-TGlrEguEWcPQlaxoRMQW6zX9LaeUM
     short-id: 0b5e53d2
   network: tcp
-- name: '🇦🇱 XolirX #53'
+- name: 'XolirX #53'
   type: vless
   server: 154.26.189.70
   port: 443
@@ -822,7 +822,7 @@ proxies:
     path: '%2Fproxyip%3DProxyIP.CMLiussss.net'
     headers:
       Host: sni.skylee4.cloudns.ch
-- name: '🇦🇱 XolirX #54'
+- name: 'XolirX #54'
   type: vless
   server: 154.26.189.70
   port: 443
@@ -837,7 +837,7 @@ proxies:
     path: /proxyip=ProxyIP.CMLiussss.netfp=chrome
     headers:
       Host: sni.skylee4.cloudns.ch
-- name: '🇦🇱 XolirX #55'
+- name: 'XolirX #55'
   type: vless
   server: 103.18.49.100
   port: 443
@@ -853,7 +853,7 @@ proxies:
     path: '%2Fid-pusat'
     headers:
       Host: support.zoom.us.cyylr.eu.cc
-- name: '🇦🇱 XolirX #56'
+- name: 'XolirX #56'
   type: vless
   server: germany.cloudpath.live
   port: 443
@@ -868,7 +868,7 @@ proxies:
     public-key: 9LTpivOtvUds71_Hxmqk7vfeMx7JeHB0aJuaQX6xXzI
     short-id: 065ee439
   network: tcp
-- name: '🇦🇱 XolirX #57'
+- name: 'XolirX #57'
   type: vless
   server: germany.cloudpath.live
   port: 443
@@ -882,7 +882,7 @@ proxies:
     public-key: 9LTpivOtvUds71_Hxmqk7vfeMx7JeHB0aJuaQX6xXzI
     short-id: 065ee439
   network: tcp
-- name: '🇦🇱 XolirX #58'
+- name: 'XolirX #58'
   type: vless
   server: 103.18.49.100
   port: 443
@@ -904,64 +904,64 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - '🇦🇱 XolirX #1'
-  - '🇦🇱 XolirX #2'
-  - '🇦🇱 XolirX #3'
-  - '🇦🇱 XolirX #4'
-  - '🇦🇱 XolirX #5'
-  - '🇦🇱 XolirX #6'
-  - '🇦🇱 XolirX #7'
-  - '🇦🇱 XolirX #8'
-  - '🇦🇱 XolirX #9'
-  - '🇦🇱 XolirX #10'
-  - '🇦🇱 XolirX #11'
-  - '🇦🇱 XolirX #12'
-  - '🇦🇱 XolirX #13'
-  - '🇦🇱 XolirX #14'
-  - '🇦🇱 XolirX #15'
-  - '🇦🇱 XolirX #16'
-  - '🇦🇱 XolirX #17'
-  - '🇦🇱 XolirX #18'
-  - '🇦🇱 XolirX #19'
-  - '🇦🇱 XolirX #20'
-  - '🇦🇱 XolirX #21'
-  - '🇦🇱 XolirX #22'
-  - '🇦🇱 XolirX #23'
-  - '🇦🇱 XolirX #24'
-  - '🇦🇱 XolirX #25'
-  - '🇦🇱 XolirX #26'
-  - '🇦🇱 XolirX #27'
-  - '🇦🇱 XolirX #28'
-  - '🇦🇱 XolirX #29'
-  - '🇦🇱 XolirX #30'
-  - '🇦🇱 XolirX #31'
-  - '🇦🇱 XolirX #32'
-  - '🇦🇱 XolirX #33'
-  - '🇦🇱 XolirX #34'
-  - '🇦🇱 XolirX #35'
-  - '🇦🇱 XolirX #36'
-  - '🇦🇱 XolirX #37'
-  - '🇦🇱 XolirX #38'
-  - '🇦🇱 XolirX #39'
-  - '🇦🇱 XolirX #40'
-  - '🇦🇱 XolirX #41'
-  - '🇦🇱 XolirX #42'
-  - '🇦🇱 XolirX #43'
-  - '🇦🇱 XolirX #44'
-  - '🇦🇱 XolirX #45'
-  - '🇦🇱 XolirX #46'
-  - '🇦🇱 XolirX #47'
-  - '🇦🇱 XolirX #48'
-  - '🇦🇱 XolirX #49'
-  - '🇦🇱 XolirX #50'
-  - '🇦🇱 XolirX #51'
-  - '🇦🇱 XolirX #52'
-  - '🇦🇱 XolirX #53'
-  - '🇦🇱 XolirX #54'
-  - '🇦🇱 XolirX #55'
-  - '🇦🇱 XolirX #56'
-  - '🇦🇱 XolirX #57'
-  - '🇦🇱 XolirX #58'
+  - 'XolirX #1'
+  - 'XolirX #2'
+  - 'XolirX #3'
+  - 'XolirX #4'
+  - 'XolirX #5'
+  - 'XolirX #6'
+  - 'XolirX #7'
+  - 'XolirX #8'
+  - 'XolirX #9'
+  - 'XolirX #10'
+  - 'XolirX #11'
+  - 'XolirX #12'
+  - 'XolirX #13'
+  - 'XolirX #14'
+  - 'XolirX #15'
+  - 'XolirX #16'
+  - 'XolirX #17'
+  - 'XolirX #18'
+  - 'XolirX #19'
+  - 'XolirX #20'
+  - 'XolirX #21'
+  - 'XolirX #22'
+  - 'XolirX #23'
+  - 'XolirX #24'
+  - 'XolirX #25'
+  - 'XolirX #26'
+  - 'XolirX #27'
+  - 'XolirX #28'
+  - 'XolirX #29'
+  - 'XolirX #30'
+  - 'XolirX #31'
+  - 'XolirX #32'
+  - 'XolirX #33'
+  - 'XolirX #34'
+  - 'XolirX #35'
+  - 'XolirX #36'
+  - 'XolirX #37'
+  - 'XolirX #38'
+  - 'XolirX #39'
+  - 'XolirX #40'
+  - 'XolirX #41'
+  - 'XolirX #42'
+  - 'XolirX #43'
+  - 'XolirX #44'
+  - 'XolirX #45'
+  - 'XolirX #46'
+  - 'XolirX #47'
+  - 'XolirX #48'
+  - 'XolirX #49'
+  - 'XolirX #50'
+  - 'XolirX #51'
+  - 'XolirX #52'
+  - 'XolirX #53'
+  - 'XolirX #54'
+  - 'XolirX #55'
+  - 'XolirX #56'
+  - 'XolirX #57'
+  - 'XolirX #58'
 - name: DIRECT
   type: select
   proxies:
