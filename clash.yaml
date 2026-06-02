@@ -7,15 +7,26 @@ external-controller: 127.0.0.1:9090
 proxies:
 - name: '🇦🇱 XolirX #1'
   type: vless
-  server: bc-de-wc.ray-balance.space
-  port: 4443
-  uuid: 0eca1f22-e5a1-4888-a0fa-c2345e87cf2f
+  server: tal.odavpn.online
+  port: 443
+  uuid: fb7fe921-1032-45fe-ae9d-20090976e572
   flow: ''
   udp: true
   skip-cert-verify: false
-  network: grpc
-  grpc-opts:
-    grpc-service-name: ''
+  tls: true
+  servername: www.amd.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: _5YItXYM7SPX7baBG4Fl1MDBE7UvDC8sOx8-0VVueBA
+    short-id: 41774dc9dc721e
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - '%2Fapi%2Fv1%2Fupdate'
+    headers:
+      Host:
+      - www.amd.com
 - name: '🇦🇱 XolirX #2'
   type: vless
   server: bc-de-wc.ray-balance.space
@@ -29,6 +40,25 @@ proxies:
     grpc-service-name: ''
 - name: '🇦🇱 XolirX #3'
   type: vless
+  server: google.com.kolman.com.de
+  port: 443
+  uuid: 204a8a6a-03ef-4444-b31f-85c17dbabcad
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: cd1.serviceali.ir
+  client-fingerprint: firefox
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - '%2FeQ7EK5s88mh1QkaLDB4v5psc'
+    headers:
+      Host:
+      - cd1.serviceali.ir
+- name: '🇦🇱 XolirX #4'
+  type: vless
   server: 146.75.119.82
   port: 80
   uuid: 8d335ef1-d18c-4c84-ac41-ca61a1338f15
@@ -40,7 +70,83 @@ proxies:
     path: ws%2F%3Fed%3D2048%2F%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%2F%3F2048
     headers:
       Host: rb24.ir
-- name: '🇦🇱 XolirX #4'
+- name: '🇦🇱 XolirX #5'
+  type: vless
+  server: 188.245.237.9
+  port: 2084
+  uuid: 712a76b0-5afb-4e4b-8255-ae239bafd894
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: unpkg.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: cAIQdlrxG1qf65imq2XaFr4DZ_sYiogb5oNjvlZ1_Rs
+    short-id: ''
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - unpkg.com
+- name: '🇦🇱 XolirX #6'
+  type: vless
+  server: r21.asemonyfixco.ir
+  port: 2084
+  uuid: 712a76b0-5afb-4e4b-8255-ae239bafd894
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: unpkg.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: cAIQdlrxG1qf65imq2XaFr4DZ_sYiogb5oNjvlZ1_Rs
+    short-id: ''
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - unpkg.com
+- name: '🇦🇱 XolirX #7'
+  type: vless
+  server: 151.101.130.133
+  port: 80
+  uuid: 96eec36e-2c44-5b09-898e-6f0f0526e57f
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - '%2Flogin'
+    headers:
+      Host:
+      - shangulin.global.ssl.fastly.net
+- name: '🇦🇱 XolirX #8'
+  type: vless
+  server: 23.235.42.205
+  port: 80
+  uuid: 96eec36e-2c44-5b09-898e-6f0f0526e57f
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - '%2Flogin'
+    headers:
+      Host:
+      - shangulin.global.ssl.fastly.net
+- name: '🇦🇱 XolirX #9'
   type: vless
   server: 151.101.128.223
   port: 80
@@ -56,24 +162,25 @@ proxies:
     headers:
       Host:
       - shangulin.global.ssl.fastly.net
-- name: '🇦🇱 XolirX #5'
-  type: vless
-  server: 31.58.76.181
-  port: 5984
-  uuid: 2397be53-f62b-42f7-80fe-5d22627c03a9
-  flow: xtls-rprx-vision
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: surfvpn24.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: eNxDsVVIsWFYlD2-wdwdDNe1jOWCBoLUzctbJJdnFyk
-    short-id: c19de8fa
-  network: tcp
-- name: '🇦🇱 XolirX #6'
+- name: '🇦🇱 XolirX #10'
   type: vless
   server: 151.101.128.223
+  port: 80
+  uuid: InternetAzadRobot
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - '%2FTignaliSWithYou'
+    headers:
+      Host:
+      - tignaltofan.global.ssl.fastly.net
+- name: '🇦🇱 XolirX #11'
+  type: vless
+  server: speedtest.net
   port: 80
   uuid: InternetAzadRobot
   flow: ''
@@ -87,7 +194,7 @@ proxies:
     headers:
       Host:
       - tignaltofan.global.ssl.fastly.net
-- name: '🇦🇱 XolirX #7'
+- name: '🇦🇱 XolirX #12'
   type: vless
   server: 151.101.192.223
   port: 80
@@ -103,37 +210,114 @@ proxies:
     headers:
       Host:
       - InternetAzadRobot07gt745.global.ssl.fastly.net
-- name: '🇦🇱 XolirX #8'
+- name: '🇦🇱 XolirX #13'
   type: vless
-  server: germany.devpirate.baby
-  port: 21463
-  uuid: 69016f2a-91e4-43af-a4e0-c5ab03fb9c46
-  flow: ''
+  server: 104.245.240.5
+  port: 993
+  uuid: 37a47219-f12e-416a-a3fc-cc27603ffc25
+  flow: xtls-rprx-vision
   udp: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: '%2F'
-    headers:
-      Host: www.google.com
-- name: '🇦🇱 XolirX #9'
+  skip-cert-verify: true
+  tls: true
+  servername: cdn.steamstatic.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Tv-cNH4ADnhrcIc_JIHdTCz2PJ3b4jkmLNAJ4OVKuzY
+    short-id: ''
+  network: tcp
+- name: '🇦🇱 XolirX #14'
   type: vless
-  server: 108.165.174.228
-  port: 2040
-  uuid: 17451fec-af94-4715-8c2f-7f6839130d0a
-  flow: ''
+  server: 104.245.240.5
+  port: 993
+  uuid: 37a47219-f12e-416a-a3fc-cc27603ffc25
+  flow: xtls-rprx-vision
   udp: true
   skip-cert-verify: false
   tls: true
-  servername: tradingview.com
+  servername: cdn.steamstatic.com
+  client-fingerprint: safari
+  reality-opts:
+    public-key: Tv-cNH4ADnhrcIc_JIHdTCz2PJ3b4jkmLNAJ4OVKuzY
+    short-id: ''
+  network: tcp
+- name: '🇦🇱 XolirX #15'
+  type: vless
+  server: 104.245.240.5
+  port: 993
+  uuid: 37a47219-f12e-416a-a3fc-cc27603ffc25
+  flow: xtls-rprx-vision
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: cdn.steamstatic.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
-    short-id: 53197c66aef53c44
+    public-key: Tv-cNH4ADnhrcIc_JIHdTCz2PJ3b4jkmLNAJ4OVKuzY
+    short-id: ''
   network: tcp
-- name: '🇦🇱 XolirX #10'
+- name: '🇦🇱 XolirX #16'
   type: vless
-  server: 23.26.193.73
+  server: 104.245.240.5
+  port: 993
+  uuid: 37a47219-f12e-416a-a3fc-cc27603ffc25
+  flow: xtls-rprx-vision
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: cdn.steamstatic.com
+  client-fingerprint: safari
+  reality-opts:
+    public-key: Tv-cNH4ADnhrcIc_JIHdTCz2PJ3b4jkmLNAJ4OVKuzY
+    short-id: ''
+  network: tcp
+- name: '🇦🇱 XolirX #17'
+  type: vless
+  server: 104.245.240.5
+  port: 993
+  uuid: 37a47219-f12e-416a-a3fc-cc27603ffc25
+  flow: xtls-rprx-vision
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: cdn.steamstatic.com
+  client-fingerprint: safari
+  reality-opts:
+    public-key: Tv-cNH4ADnhrcIc_JIHdTCz2PJ3b4jkmLNAJ4OVKuzY
+    short-id: ''
+  network: tcp
+- name: '🇦🇱 XolirX #18'
+  type: vless
+  server: 122.8.44.7
+  port: 993
+  uuid: 37a47219-f12e-416a-a3fc-cc27603ffc25
+  flow: xtls-rprx-vision
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: download.nvidia.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: SkPIAkSI8R1LY1hynsZZcxKkPmJKU11DAMncccLEdjI
+    short-id: ''
+  network: tcp
+- name: '🇦🇱 XolirX #19'
+  type: vless
+  server: 122.8.44.7
+  port: 993
+  uuid: 37a47219-f12e-416a-a3fc-cc27603ffc25
+  flow: xtls-rprx-vision
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: download.nvidia.com
+  client-fingerprint: safari
+  reality-opts:
+    public-key: SkPIAkSI8R1LY1hynsZZcxKkPmJKU11DAMncccLEdjI
+    short-id: ''
+  network: tcp
+- name: '🇦🇱 XolirX #20'
+  type: vless
+  server: 108.165.32.239
   port: 2040
   uuid: 17451fec-af94-4715-8c2f-7f6839130d0a
   flow: ''
@@ -146,47 +330,44 @@ proxies:
     public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
     short-id: 53197c66aef53c44
   network: tcp
-- name: '🇦🇱 XolirX #11'
+- name: '🇦🇱 XolirX #21'
   type: vless
-  server: bi.amooyam.com
-  port: 443
-  uuid: f76c2df5-4f10-45e0-a4f3-cdb23a559f51
+  server: 108.165.32.239
+  port: 2040
+  uuid: 17451fec-af94-4715-8c2f-7f6839130d0a
   flow: ''
   udp: true
   skip-cert-verify: false
   tls: true
-  servername: bi.amooyam.com
-  client-fingerprint: chrome
-  network: tcp
-- name: '🇦🇱 XolirX #12'
-  type: vless
-  server: tw4.miyazono-kaori.com
-  port: 443
-  uuid: 4086c00a-67a4-4d96-9c5f-2f177f26cb51
-  flow: xtls-rprx-vision
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: dlcdnets.asus.com
+  servername: tradingview.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: IqsN_cPeCP6oEXtYQMMWBiUim-r9lxq7YGj_mE3992g
-    short-id: e6d59aff03e5b0
+    public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
+    short-id: 53197c66aef53c44
   network: tcp
-- name: '🇦🇱 XolirX #13'
+- name: '🇦🇱 XolirX #22'
   type: vless
-  server: developer.projectauths.com
-  port: 443
-  uuid: d49eb175-facd-4c33-b1be-32c746701184
+  server: 96.126.129.195
+  port: 2040
+  uuid: 17451fec-af94-4715-8c2f-7f6839130d0a
+  flow: ''
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: tradingview.com
+  client-fingerprint: qq
+  reality-opts:
+    public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
+    short-id: 53197c66aef53c44
+  network: tcp
+- name: '🇦🇱 XolirX #23'
+  type: vless
+  server: 217.163.76.118
+  port: 2086
+  uuid: 958100e2-40fa-4903-aaaf-d9b7690ae7f9
   flow: ''
   udp: true
   skip-cert-verify: false
-  tls: true
-  servername: developer.projectauths.com
-  client-fingerprint: random
-  reality-opts:
-    public-key: U-aI9goYn0iGJ31emKZ1ltON45Ry0LjCl15MnumMD2c
-    short-id: 68d14e7adba07698
   network: http
   http-opts:
     method: GET
@@ -194,21 +375,162 @@ proxies:
     - '%2F'
     headers:
       Host:
-      - developer.projectauths.com
-- name: '🇦🇱 XolirX #14'
+      - xvh.andishehparenting.com
+- name: '🇦🇱 XolirX #24'
   type: vless
-  server: panel.dibaux.ir
+  server: 199.232.207.217
   port: 80
-  uuid: 79475016-7b3c-414d-9110-9b9faac6922d
+  uuid: ca729535-6a99-4870-9041-819cc479302f
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - grtnowlan.global.ssl.fastly.net
+- name: '🇦🇱 XolirX #25'
+  type: vless
+  server: s356.ccgfw.online
+  port: 443
+  uuid: 205d6869-02ca-3b36-b933-be2465250c7e
+  flow: xtls-rprx-vision
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: u716087u09d7s356.ccgfw.online
+  client-fingerprint: random
+  network: tcp
+- name: '🇦🇱 XolirX #26'
+  type: vless
+  server: s356.ccgfw.online
+  port: 443
+  uuid: 205d6869-02ca-3b36-b933-be2465250c7e
+  flow: xtls-rprx-vision
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: u716087u09d7s356.ccgfw.online
+  client-fingerprint: random
+  network: tcp
+- name: '🇦🇱 XolirX #27'
+  type: vless
+  server: s359.ccgfw.online
+  port: 443
+  uuid: 205d6869-02ca-3b36-b933-be2465250c7e
+  flow: xtls-rprx-vision
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: u716087u4da2s359.ccgfw.online
+  client-fingerprint: random
+  network: tcp
+- name: '🇦🇱 XolirX #28'
+  type: vless
+  server: s359.ccgfw.online
+  port: 443
+  uuid: 205d6869-02ca-3b36-b933-be2465250c7e
+  flow: xtls-rprx-vision
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: u716087u4da2s359.ccgfw.online
+  client-fingerprint: random
+  network: tcp
+- name: '🇦🇱 XolirX #29'
+  type: vless
+  server: 43.160.201.33
+  port: 666
+  uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
+  flow: ''
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: 43.160.201.33
+  network: ws
+  ws-opts:
+    path: '%2Fproxy'
+    headers:
+      Host: ''
+- name: '🇦🇱 XolirX #30'
+  type: vless
+  server: 43.160.201.33
+  port: 666
+  uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
+  flow: ''
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: '%2Fproxy'
+    headers:
+      Host: ''
+- name: '🇦🇱 XolirX #31'
+  type: vless
+  server: 43.164.190.214
+  port: 666
+  uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
+  flow: ''
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: 43.164.190.214
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: '%2Fproxy'
+    headers:
+      Host: 43.164.190.214
+- name: '🇦🇱 XolirX #32'
+  type: vless
+  server: number3.api50951.ir
+  port: 1080
+  uuid: ccde0681-62b1-4f8c-972c-a2201ac900ea
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: api.api50951.ir
+  network: grpc
+  grpc-opts:
+    grpc-service-name: api.api50951.ir
+- name: '🇦🇱 XolirX #33'
+  type: vless
+  server: 89.124.69.82
+  port: 1310
+  uuid: v2raydia
   flow: ''
   udp: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: '%2Fstream'
+    path: '%2F%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia'
     headers:
-      Host: ''
-- name: '🇦🇱 XolirX #15'
+      Host: play.google.com
+- name: '🇦🇱 XolirX #34'
+  type: vless
+  server: cdn-nl4-mts.cyphervpn.pro
+  port: 443
+  uuid: 07b83f89-da7c-48df-8ef4-805540c7a6ee
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: cdn-nl4-mts.cyphervpn.pro
+  client-fingerprint: firefox
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - '%2Fstorage%2Fblob%2Fv2%2F'
+    headers:
+      Host:
+      - cdn-nl4-mts.cyphervpn.pro
+- name: '🇦🇱 XolirX #35'
   type: vless
   server: s644.ccgfw.top
   port: 443
@@ -220,7 +542,52 @@ proxies:
   servername: u716087ud3c8s644.ccgfw.top
   client-fingerprint: random
   network: tcp
-- name: '🇦🇱 XolirX #16'
+- name: '🇦🇱 XolirX #36'
+  type: vless
+  server: de02.lumixvpn.org
+  port: 443
+  uuid: ed98e66d-5dbe-4b6d-9032-250e61eaf53f
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: de02.lumixvpn.org
+  client-fingerprint: qq
+  reality-opts:
+    public-key: DIHjDGgu5D5u6_MR58aXikctuSMiMsXM9TQO8AjnsFE
+    short-id: f2036d26b59e10f9
+  network: tcp
+- name: '🇦🇱 XolirX #37'
+  type: vless
+  server: 45.9.16.159
+  port: 443
+  uuid: c4d69096-4026-4da5-9485-20a3da91cb14
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: cats.abvphelp.cc
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: NhsyjpnYcDfpRfyX2m47AsoHDX_boKi9e1lKOkFNsgE
+    short-id: 12a73c72
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
+- name: '🇦🇱 XolirX #38'
+  type: vless
+  server: american.ssabzlearn.ir
+  port: 9443
+  uuid: faac9f4c-0108-4ac9-9dcc-9c2b7359482d
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: '%2F'
+    headers:
+      Host: ''
+- name: '🇦🇱 XolirX #39'
   type: vless
   server: s77.okgfwbackxyz.xyz
   port: 443
@@ -231,7 +598,7 @@ proxies:
   tls: true
   servername: u716087us77.okgfwbackxyz.xyz
   network: tcp
-- name: '🇦🇱 XolirX #17'
+- name: '🇦🇱 XolirX #40'
   type: vless
   server: s860.okgfwbackxyz.xyz
   port: 443
@@ -242,103 +609,18 @@ proxies:
   tls: true
   servername: u716087us860.okgfwbackxyz.xyz
   network: tcp
-- name: '🇦🇱 XolirX #18'
+- name: '🇦🇱 XolirX #41'
   type: vless
-  server: 104.168.167.197
-  port: 27213
-  uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: us2.wxgqlfx.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: '%2FTG%40wxgqlfx'
-    headers:
-      Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #19'
-  type: vless
-  server: 104.194.140.98
-  port: 8443
-  uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: us2.wxgqlfx.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: '%2FTG%40wxgqlfx'
-    headers:
-      Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #20'
-  type: vless
-  server: 185.103.252.54
-  port: 2053
-  uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: us2.wxgqlfx.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: '%2FTG%40wxgqlfx'
-    headers:
-      Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #21'
-  type: vless
-  server: 185.198.165.92
+  server: s860.okgfwbackxyz.xyz
   port: 443
-  uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
-  flow: ''
+  uuid: 205d6869-02ca-3b36-b933-be2465250c7e
+  flow: xtls-rprx-vision
   udp: true
   skip-cert-verify: false
   tls: true
-  servername: us2.wxgqlfx.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: '%2FTG%40wxgqlfx'
-    headers:
-      Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #22'
-  type: vless
-  server: 185.31.200.184
-  port: 8443
-  uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: us2.wxgqlfx.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: '%2FTG%40wxgqlfx'
-    headers:
-      Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #23'
-  type: vless
-  server: 185.36.143.187
-  port: 443
-  uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: us2.wxgqlfx.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: '%2FTG%40wxgqlfx'
-    headers:
-      Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #24'
+  servername: u716087us860.okgfwbackxyz.xyz
+  network: tcp
+- name: '🇦🇱 XolirX #42'
   type: vless
   server: 188.253.27.65
   port: 443
@@ -354,9 +636,9 @@ proxies:
     path: '%2FTG%40wxgqlfx'
     headers:
       Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #25'
+- name: '🇦🇱 XolirX #43'
   type: vless
-  server: 192.80.63.51
+  server: 193.124.183.175
   port: 443
   uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
   flow: ''
@@ -370,87 +652,7 @@ proxies:
     path: '%2FTG%40wxgqlfx'
     headers:
       Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #26'
-  type: vless
-  server: 217.154.53.220
-  port: 443
-  uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: us2.wxgqlfx.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: '%2FTG%40wxgqlfx'
-    headers:
-      Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #27'
-  type: vless
-  server: 217.154.53.220
-  port: 8443
-  uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: us2.wxgqlfx.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: '%2FTG%40wxgqlfx'
-    headers:
-      Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #28'
-  type: vless
-  server: 31.192.239.68
-  port: 8443
-  uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: us2.wxgqlfx.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: '%2FTG%40wxgqlfx'
-    headers:
-      Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #29'
-  type: vless
-  server: 31.57.105.39
-  port: 8443
-  uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: us2.wxgqlfx.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: '%2FTG%40wxgqlfx'
-    headers:
-      Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #30'
-  type: vless
-  server: 45.159.189.26
-  port: 2053
-  uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: us2.wxgqlfx.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: '%2FTG%40wxgqlfx'
-    headers:
-      Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #31'
+- name: '🇦🇱 XolirX #44'
   type: vless
   server: 45.85.117.116
   port: 443
@@ -466,71 +668,100 @@ proxies:
     path: '%2FTG%40wxgqlfx'
     headers:
       Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #32'
+- name: '🇦🇱 XolirX #45'
   type: vless
-  server: 45.88.76.184
+  server: 38.14.232.201
+  port: 53501
+  uuid: 98aa28b3-78ac-4c54-bf6e-0e7d0e65259b
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: tbgvM-W4DB5oZ-BvaLPC_TUPzdWPDOYp9Zm3sKaCH04
+    short-id: 8a190670
+  network: tcp
+- name: '🇦🇱 XolirX #46'
+  type: vless
+  server: 186.246.4.81
   port: 443
-  uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
+  uuid: c4d69096-4026-4da5-9485-20a3da91cb14
   flow: ''
   udp: true
   skip-cert-verify: false
   tls: true
-  servername: us2.wxgqlfx.xyz
+  servername: www.aviasales.com
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: '%2FTG%40wxgqlfx'
-    headers:
-      Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #33'
+  reality-opts:
+    public-key: d24ax4dGUXqJMY0a4_2W_Y5SbEH2XrrQ3_AcxGa4QFw
+    short-id: c42e8eee
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
+- name: '🇦🇱 XolirX #47'
   type: vless
-  server: 85.203.39.55
+  server: ru01.lumixvpn.org
   port: 443
-  uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
+  uuid: ed98e66d-5dbe-4b6d-9032-250e61eaf53f
+  flow: xtls-rprx-vision
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: ru01.lumixvpn.org
+  client-fingerprint: qq
+  reality-opts:
+    public-key: Ue7Oj8rvr0gqV6725tCKE6XTVcnwmK1fGwSqphSzsAg
+    short-id: 7027a8fa0d47317d
+  network: tcp
+- name: '🇦🇱 XolirX #48'
+  type: vless
+  server: auto.datamove.online
+  port: 2040
+  uuid: 17451fec-af94-4715-8c2f-7f6839130d0a
   flow: ''
   udp: true
   skip-cert-verify: false
   tls: true
-  servername: us2.wxgqlfx.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: '%2FTG%40wxgqlfx'
-    headers:
-      Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #34'
+  servername: tradingview.com
+  client-fingerprint: qq
+  reality-opts:
+    public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
+    short-id: 53197c66aef53c44
+  network: tcp
+- name: '🇦🇱 XolirX #49'
   type: vless
-  server: 85.206.172.44
+  server: 198.62.62.18
   port: 443
-  uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
+  uuid: ace095c0-debd-46fd-903f-d29b9c8b4101
   flow: ''
   udp: true
   skip-cert-verify: false
   tls: true
-  servername: us2.wxgqlfx.xyz
-  client-fingerprint: chrome
+  servername: collection.linefriends.com.cyylr.eu.cc
   network: ws
   ws-opts:
-    path: '%2FTG%40wxgqlfx'
+    path: /ae-bo
     headers:
-      Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #35'
+      Host: collection.linefriends.com.cyylr.eu.cc
+- name: '🇦🇱 XolirX #50'
   type: vless
-  server: 87.239.250.244
-  port: 2053
-  uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
+  server: 208.103.161.170
+  port: 443
+  uuid: 28f79470-c550-40b0-9e46-834a46ac8da8
   flow: ''
   udp: true
   skip-cert-verify: false
   tls: true
-  servername: us2.wxgqlfx.xyz
+  servername: help.viu.com.cyylr.eu.cc
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: '%2FTG%40wxgqlfx'
+    path: '%2Fid-pusat'
     headers:
-      Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #36'
+      Host: help.viu.com.cyylr.eu.cc
+- name: '🇦🇱 XolirX #51'
   type: vless
   server: 208.103.161.170
   port: 443
@@ -545,22 +776,18 @@ proxies:
     path: '%2Fid-pusat'
     headers:
       Host: ava.game.naver.com.cyylr.eu.cc
-- name: '🇦🇱 XolirX #37'
+- name: '🇦🇱 XolirX #52'
   type: vless
-  server: fi.corsair-web.space
-  port: 8443
-  uuid: a845ce7c-ea10-47b0-8de4-92810260eeab
-  flow: xtls-rprx-vision
+  server: bc-pl-1c.ray-balance.space
+  port: 4443
+  uuid: 0eca1f22-e5a1-4888-a0fa-c2345e87cf2f
+  flow: ''
   udp: true
   skip-cert-verify: false
-  tls: true
-  servername: mozilla.org
-  client-fingerprint: random
-  reality-opts:
-    public-key: TNsQJHoX2M2u07a6oEPb3tY9U08Aph4Qvdk76dAZdio
-    short-id: 82ed5803a8047a3e
-  network: tcp
-- name: '🇦🇱 XolirX #38'
+  network: grpc
+  grpc-opts:
+    grpc-service-name: ''
+- name: '🇦🇱 XolirX #53'
   type: vless
   server: bc-pl-1c.ray-balance.space
   port: 4443
@@ -615,6 +842,21 @@ proxy-groups:
   - '🇦🇱 XolirX #36'
   - '🇦🇱 XolirX #37'
   - '🇦🇱 XolirX #38'
+  - '🇦🇱 XolirX #39'
+  - '🇦🇱 XolirX #40'
+  - '🇦🇱 XolirX #41'
+  - '🇦🇱 XolirX #42'
+  - '🇦🇱 XolirX #43'
+  - '🇦🇱 XolirX #44'
+  - '🇦🇱 XolirX #45'
+  - '🇦🇱 XolirX #46'
+  - '🇦🇱 XolirX #47'
+  - '🇦🇱 XolirX #48'
+  - '🇦🇱 XolirX #49'
+  - '🇦🇱 XolirX #50'
+  - '🇦🇱 XolirX #51'
+  - '🇦🇱 XolirX #52'
+  - '🇦🇱 XolirX #53'
 - name: DIRECT
   type: select
   proxies:
