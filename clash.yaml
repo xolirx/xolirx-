@@ -7,123 +7,20 @@ external-controller: 127.0.0.1:9090
 proxies:
 - name: '🇦🇱 XolirX #1'
   type: vless
-  server: 151.101.0.223
-  port: 80
-  uuid: InternetAzad-PRO
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - service28342.global.ssl.fastly.net
-- name: '🇦🇱 XolirX #2'
-  type: vless
-  server: 151.101.128.223
-  port: 80
-  uuid: InternetAzad-PRO
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2F'
-    headers:
-      Host:
-      - service28342.global.ssl.fastly.net
-- name: '🇦🇱 XolirX #3'
-  type: vless
-  server: 151.101.192.223
-  port: 80
-  uuid: InternetAzad-PRO
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2F'
-    headers:
-      Host:
-      - service28342.global.ssl.fastly.net
-- name: '🇦🇱 XolirX #4'
-  type: vless
-  server: 151.101.64.223
-  port: 80
-  uuid: InternetAzad-PRO
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2F'
-    headers:
-      Host:
-      - service28342.global.ssl.fastly.net
-- name: '🇦🇱 XolirX #5'
-  type: vless
-  server: 93.126.19.247
-  port: 19467
-  uuid: ee258b89-6004-43cb-a404-69c4f1ac6b56
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #6'
-  type: vless
-  server: app.movise.org
-  port: 19467
-  uuid: ee258b89-6004-43cb-a404-69c4f1ac6b56
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #7'
-  type: vless
-  server: tal.odavpn.online
+  server: 87.120.196.18
   port: 443
-  uuid: fb7fe921-1032-45fe-ae9d-20090976e572
-  flow: ''
+  uuid: f099abc1-eb01-4171-a94f-566563f6b3b1
+  flow: xtls-rprx-vision
   udp: true
   skip-cert-verify: false
   tls: true
-  servername: www.amd.com
+  servername: www.ya.ru
   client-fingerprint: chrome
   reality-opts:
-    public-key: _5YItXYM7SPX7baBG4Fl1MDBE7UvDC8sOx8-0VVueBA
-    short-id: 41774dc9dc721e
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2Fapi%2Fv1%2Fupdate'
-    headers:
-      Host:
-      - www.amd.com
-- name: '🇦🇱 XolirX #8'
+    public-key: o2SrzDoX5tfMpju7B-RSxsb7eo6-hdV1vRFP8VA-dUA
+    short-id: ''
+  network: tcp
+- name: '🇦🇱 XolirX #2'
   type: vless
   server: bc-de-wc.ray-balance.space
   port: 4443
@@ -134,7 +31,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: ''
-- name: '🇦🇱 XolirX #9'
+- name: '🇦🇱 XolirX #3'
   type: vless
   server: bc-de-wc.ray-balance.space
   port: 4443
@@ -145,58 +42,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: ''
-- name: '🇦🇱 XolirX #10'
-  type: vless
-  server: google.com.kolman.com.de
-  port: 443
-  uuid: 204a8a6a-03ef-4444-b31f-85c17dbabcad
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cd1.serviceali.ir
-  client-fingerprint: firefox
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2FeQ7EK5s88mh1QkaLDB4v5psc'
-    headers:
-      Host:
-      - cd1.serviceali.ir
-- name: '🇦🇱 XolirX #11'
-  type: vless
-  server: google.com.kolman.com.de
-  port: 443
-  uuid: 204a8a6a-03ef-4444-b31f-85c17dbabcad
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cd1.serviceali.ir
-  client-fingerprint: chrome
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /eQ7EK5s88mh1QkaLDB4v5psc
-    headers:
-      Host:
-      - cd1.serviceali.ir
-- name: '🇦🇱 XolirX #12'
-  type: vless
-  server: 185.143.233.21
-  port: 2052
-  uuid: 586db082-dcfc-4599-8b52-af4cf7da8330
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: '%2FTV'
-    headers:
-      Host: eLaHiToKoMaKkOn.aRvHaMrAh.iR
-- name: '🇦🇱 XolirX #13'
+- name: '🇦🇱 XolirX #4'
   type: vless
   server: 151.101.130.133
   port: 80
@@ -212,7 +58,7 @@ proxies:
     headers:
       Host:
       - shangulin.global.ssl.fastly.net
-- name: '🇦🇱 XolirX #14'
+- name: '🇦🇱 XolirX #5'
   type: vless
   server: 23.235.42.205
   port: 80
@@ -228,7 +74,7 @@ proxies:
     headers:
       Host:
       - shangulin.global.ssl.fastly.net
-- name: '🇦🇱 XolirX #15'
+- name: '🇦🇱 XolirX #6'
   type: vless
   server: 151.101.128.223
   port: 80
@@ -244,7 +90,7 @@ proxies:
     headers:
       Host:
       - shangulin.global.ssl.fastly.net
-- name: '🇦🇱 XolirX #16'
+- name: '🇦🇱 XolirX #7'
   type: vless
   server: 151.101.128.223
   port: 80
@@ -260,7 +106,7 @@ proxies:
     headers:
       Host:
       - tignaltofan.global.ssl.fastly.net
-- name: '🇦🇱 XolirX #17'
+- name: '🇦🇱 XolirX #8'
   type: vless
   server: speedtest.net
   port: 80
@@ -276,116 +122,23 @@ proxies:
     headers:
       Host:
       - tignaltofan.global.ssl.fastly.net
-- name: '🇦🇱 XolirX #18'
+- name: '🇦🇱 XolirX #9'
   type: vless
-  server: de1.thefastspeedtest.net
-  port: 443
-  uuid: 5a4514a3-be28-4655-9bd7-5ef391d7949f
-  flow: xtls-rprx-vision
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: de1.thefastspeedtest.net
-  client-fingerprint: edge
-  reality-opts:
-    public-key: PuOP1VAIjcpq6sU_eUxV-z-u_WYFsu2hKIv2uye6804
-    short-id: 2d8c125b546b669f
-  network: tcp
-- name: '🇦🇱 XolirX #19'
-  type: vless
-  server: de2.thefastspeedtest.net
-  port: 443
-  uuid: 5a4514a3-be28-4655-9bd7-5ef391d7949f
-  flow: xtls-rprx-vision
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: de2.thefastspeedtest.net
-  client-fingerprint: edge
-  reality-opts:
-    public-key: PuOP1VAIjcpq6sU_eUxV-z-u_WYFsu2hKIv2uye6804
-    short-id: 26f8c993ac40d17d
-  network: tcp
-- name: '🇦🇱 XolirX #20'
-  type: vless
-  server: de1.gamelistak.com
-  port: 443
-  uuid: c129c997-119d-4177-a94b-ee1025383a6f
+  server: 151.101.192.223
+  port: 80
+  uuid: InternetAzadRobot-AliKiller
   flow: ''
   udp: true
   skip-cert-verify: false
-  tls: true
-  client-fingerprint: chrome
   network: http
   http-opts:
     method: GET
     path:
-    - /MrNexTV2RAY
+    - '%2F'
     headers:
       Host:
-      - de1.gamelistak.com
-- name: '🇦🇱 XolirX #21'
-  type: vless
-  server: de1.gamelistak.com
-  port: 443
-  uuid: c129c997-119d-4177-a94b-ee1025383a6f
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: de1.gamelistak.com
-  client-fingerprint: chrome
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2FMrNexTV2RAY'
-    headers:
-      Host:
-      - de1.gamelistak.com
-- name: '🇦🇱 XolirX #22'
-  type: vless
-  server: de1.gamelistak.com
-  port: 443
-  uuid: c129c997-119d-4177-a94b-ee1025383a6f
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  client-fingerprint: chrome
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /MrNexTV2RAY
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #23'
-  type: vless
-  server: ovh.furkbalancer.net
-  port: 2053
-  uuid: c286e7ff-3a16-459f-8e17-59de2764cf2e
-  flow: xtls-rprx-vision
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: de.chocolatemango.live
-  network: tcp
-- name: '🇦🇱 XolirX #24'
-  type: vless
-  server: blit2.hamrahcore.ir
-  port: 719
-  uuid: 586db082-dcfc-4599-8b52-af4cf7da8330
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: '%2Fapi%2Fv2%2Fxtrnwqjbkr%3Fed%3D2560'
-    headers:
-      Host: play.google.com
-- name: '🇦🇱 XolirX #25'
+      - InternetAzadRobot07gt745.global.ssl.fastly.net
+- name: '🇦🇱 XolirX #10'
   type: vless
   server: blit33.hamrahcore.ir
   port: 719
@@ -398,23 +151,22 @@ proxies:
     path: '%2Fapi%2Fv2%2Fxtrnwqjbkr%3Fed%3D2560'
     headers:
       Host: play.google.com
-- name: '🇦🇱 XolirX #26'
+- name: '🇦🇱 XolirX #11'
   type: vless
-  server: 93665.xin
+  server: de3.thefastspeedtest.net
   port: 443
-  uuid: f3a61acd-8589-4c27-b6ed-81ec3b57e6a7
-  flow: ''
+  uuid: 5a4514a3-be28-4655-9bd7-5ef391d7949f
+  flow: xtls-rprx-vision
   udp: true
   skip-cert-verify: false
   tls: true
-  servername: free.irandoc.info
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: '%2F49614%2Fcdn'
-    headers:
-      Host: free.irandoc.info
-- name: '🇦🇱 XolirX #27'
+  servername: de3.thefastspeedtest.net
+  client-fingerprint: edge
+  reality-opts:
+    public-key: PuOP1VAIjcpq6sU_eUxV-z-u_WYFsu2hKIv2uye6804
+    short-id: 215698b3c18d62ba
+  network: tcp
+- name: '🇦🇱 XolirX #12'
   type: vless
   server: 93665.xin
   port: 443
@@ -430,9 +182,9 @@ proxies:
     path: /49614/cdn
     headers:
       Host: free.irandoc.info
-- name: '🇦🇱 XolirX #28'
+- name: '🇦🇱 XolirX #13'
   type: vless
-  server: 212.113.104.219
+  server: 108.165.236.144
   port: 2040
   uuid: 17451fec-af94-4715-8c2f-7f6839130d0a
   flow: ''
@@ -445,7 +197,7 @@ proxies:
     public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
     short-id: 53197c66aef53c44
   network: tcp
-- name: '🇦🇱 XolirX #29'
+- name: '🇦🇱 XolirX #14'
   type: vless
   server: 96.126.129.195
   port: 2040
@@ -460,52 +212,7 @@ proxies:
     public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
     short-id: 53197c66aef53c44
   network: tcp
-- name: '🇦🇱 XolirX #30'
-  type: vless
-  server: 96.126.129.195
-  port: 2040
-  uuid: 17451fec-af94-4715-8c2f-7f6839130d0a
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: tradingview.com
-  client-fingerprint: qq
-  reality-opts:
-    public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
-    short-id: 53197c66aef53c44
-  network: tcp
-- name: '🇦🇱 XolirX #31'
-  type: vless
-  server: germ-node.datamove.online
-  port: 2040
-  uuid: 17451fec-af94-4715-8c2f-7f6839130d0a
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: tradingview.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
-    short-id: 53197c66aef53c44
-  network: tcp
-- name: '🇦🇱 XolirX #32'
-  type: vless
-  server: germ-node.datamove.online
-  port: 2040
-  uuid: 17451fec-af94-4715-8c2f-7f6839130d0a
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: tradingview.com
-  client-fingerprint: qq
-  reality-opts:
-    public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
-    short-id: 53197c66aef53c44
-  network: tcp
-- name: '🇦🇱 XolirX #33'
+- name: '🇦🇱 XolirX #15'
   type: vless
   server: probabblynot.fazelextremeisreal.com
   port: 18034
@@ -520,1871 +227,89 @@ proxies:
     public-key: ph_rbwXTPE724CilY2K21PHfgfj32QL2oApFve6s1nQ
     short-id: ef6a0ec24e7f
   network: tcp
-- name: '🇦🇱 XolirX #34'
+- name: '🇦🇱 XolirX #16'
   type: vless
-  server: 114.129.43.151
+  server: 91.124.209.75
   port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
+  uuid: a5ff2e8e-7102-4ce5-9750-51b8dc3aeefd
   flow: ''
   udp: true
   skip-cert-verify: false
   tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #35'
-  type: vless
-  server: 114.129.43.151
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
+  servername: www.microsoft.com
   client-fingerprint: chrome
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2Fxn--q9jyb4c'
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #36'
-  type: vless
-  server: 114.129.43.151
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #37'
-  type: vless
-  server: 139.64.235.126
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #38'
-  type: vless
-  server: 139.64.235.126
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  client-fingerprint: chrome
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2Fxn--q9jyb4c'
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #39'
-  type: vless
-  server: 139.64.235.126
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #40'
-  type: vless
-  server: 139.64.235.191
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #41'
-  type: vless
-  server: 139.64.235.191
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  client-fingerprint: chrome
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2Fxn--q9jyb4c'
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #42'
-  type: vless
-  server: 139.64.235.191
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #43'
-  type: vless
-  server: 139.64.235.219
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #44'
-  type: vless
-  server: 139.64.235.219
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #45'
-  type: vless
-  server: 139.64.235.248
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2Fxn--q9jyb4c'
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #46'
-  type: vless
-  server: 139.64.235.248
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #47'
-  type: vless
-  server: 139.64.235.48
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #48'
-  type: vless
-  server: 139.64.235.48
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  client-fingerprint: chrome
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2Fxn--q9jyb4c'
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #49'
-  type: vless
-  server: 139.64.235.48
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #50'
-  type: vless
-  server: 156.243.246.219
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #51'
-  type: vless
-  server: 156.243.246.219
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  client-fingerprint: chrome
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2Fxn--q9jyb4c'
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #52'
-  type: vless
-  server: 156.243.246.219
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #53'
-  type: vless
-  server: 167.68.4.88
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #54'
-  type: vless
-  server: 167.68.4.88
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  client-fingerprint: chrome
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2Fxn--q9jyb4c'
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #55'
-  type: vless
-  server: 185.207.196.232
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #56'
-  type: vless
-  server: 185.207.196.232
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  client-fingerprint: chrome
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2Fxn--q9jyb4c'
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #57'
-  type: vless
-  server: 185.207.196.232
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #58'
-  type: vless
-  server: 185.207.197.156
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #59'
-  type: vless
-  server: 185.207.197.156
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  client-fingerprint: chrome
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2Fxn--q9jyb4c'
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #60'
-  type: vless
-  server: 185.207.197.156
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #61'
-  type: vless
-  server: 185.207.197.180
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #62'
-  type: vless
-  server: 185.207.197.180
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #63'
-  type: vless
-  server: 185.207.197.241
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #64'
-  type: vless
-  server: 185.207.197.241
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #65'
-  type: vless
-  server: 185.207.197.94
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  client-fingerprint: chrome
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2Fxn--q9jyb4c'
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #66'
-  type: vless
-  server: 185.207.197.94
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #67'
-  type: vless
-  server: 185.207.198.170
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #68'
-  type: vless
-  server: 185.207.198.170
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #69'
-  type: vless
-  server: 185.207.198.85
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #70'
-  type: vless
-  server: 185.207.198.85
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  client-fingerprint: chrome
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2Fxn--q9jyb4c'
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #71'
-  type: vless
-  server: 185.207.198.85
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #72'
-  type: vless
-  server: 193.22.229.35
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #73'
-  type: vless
-  server: 193.22.229.35
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #74'
-  type: vless
-  server: 198.177.56.213
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #75'
-  type: vless
-  server: 198.177.56.213
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #76'
-  type: vless
-  server: 198.177.56.221
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #77'
-  type: vless
-  server: 198.177.56.221
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  client-fingerprint: chrome
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2Fxn--q9jyb4c'
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #78'
-  type: vless
-  server: 198.177.56.221
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #79'
-  type: vless
-  server: 213.182.199.142
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2Fxn--q9jyb4c'
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #80'
-  type: vless
-  server: 213.182.199.142
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #81'
-  type: vless
-  server: 213.182.199.70
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #82'
-  type: vless
-  server: 213.182.199.70
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #83'
-  type: vless
-  server: 46.202.30.183
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #84'
-  type: vless
-  server: 46.202.30.183
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  client-fingerprint: chrome
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2Fxn--q9jyb4c'
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #85'
-  type: vless
-  server: 46.202.30.183
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #86'
-  type: vless
-  server: 46.202.30.255
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #87'
-  type: vless
-  server: 46.202.30.255
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  client-fingerprint: chrome
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2Fxn--q9jyb4c'
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #88'
-  type: vless
-  server: 46.202.30.255
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #89'
-  type: vless
-  server: 46.202.30.87
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #90'
-  type: vless
-  server: 46.202.30.87
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  client-fingerprint: chrome
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2Fxn--q9jyb4c'
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #91'
-  type: vless
-  server: 46.202.30.87
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #92'
-  type: vless
-  server: 5.175.141.113
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #93'
-  type: vless
-  server: 5.175.141.113
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  client-fingerprint: chrome
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2Fxn--q9jyb4c'
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #94'
-  type: vless
-  server: 5.175.141.113
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #95'
-  type: vless
-  server: 5.175.141.14
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #96'
-  type: vless
-  server: 5.175.141.14
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  client-fingerprint: chrome
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2Fxn--q9jyb4c'
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #97'
-  type: vless
-  server: 5.175.141.14
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #98'
-  type: vless
-  server: 5.175.141.204
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #99'
-  type: vless
-  server: 66.225.252.203
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #100'
-  type: vless
-  server: 66.225.252.203
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  client-fingerprint: chrome
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2Fxn--q9jyb4c'
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #101'
-  type: vless
-  server: 66.225.252.203
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #102'
-  type: vless
-  server: 66.225.252.214
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #103'
-  type: vless
-  server: 66.225.252.214
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  client-fingerprint: chrome
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2Fxn--q9jyb4c'
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #104'
-  type: vless
-  server: 66.225.252.214
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #105'
-  type: vless
-  server: 66.225.252.63
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #106'
-  type: vless
-  server: 66.225.252.63
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #107'
-  type: vless
-  server: 66.45.118.115
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #108'
-  type: vless
-  server: 66.45.118.182
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #109'
-  type: vless
-  server: 66.45.118.182
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #110'
-  type: vless
-  server: 66.45.118.67
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #111'
-  type: vless
-  server: 77.105.163.187
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #112'
-  type: vless
-  server: 77.105.163.187
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #113'
-  type: vless
-  server: 91.209.253.175
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #114'
-  type: vless
-  server: 91.209.253.175
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #115'
-  type: vless
-  server: 91.209.253.225
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #116'
-  type: vless
-  server: 91.209.253.225
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #117'
-  type: vless
-  server: 92.243.75.155
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - cloudflare.dns.xn--q9jyb4c
-- name: '🇦🇱 XolirX #118'
-  type: vless
-  server: 92.243.75.155
-  port: 443
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: cloudflare.dns.xn--q9jyb4c
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /xn--q9jyb4c
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #119'
-  type: vless
-  server: s356.ccgfw.online
-  port: 443
-  uuid: 205d6869-02ca-3b36-b933-be2465250c7e
-  flow: xtls-rprx-vision
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: u716087u09d7s356.ccgfw.online
-  client-fingerprint: chrome
+  reality-opts:
+    public-key: Q5L2J2Fswd_K5U4-vAE05VOvKxI8IsD5b6SlN_nwKh8
+    short-id: dcf8f557800eab1b
   network: tcp
-- name: '🇦🇱 XolirX #120'
+- name: '🇦🇱 XolirX #17'
   type: vless
-  server: s356.ccgfw.online
-  port: 443
-  uuid: 205d6869-02ca-3b36-b933-be2465250c7e
-  flow: xtls-rprx-vision
+  server: 38.180.194.46
+  port: 30225
+  uuid: 25ce64d7-b8f3-43ec-b969-ced1044d9fe6
+  flow: ''
   udp: true
   skip-cert-verify: false
-  tls: true
-  servername: u716087u09d7s356.ccgfw.online
-  client-fingerprint: random
-  network: tcp
-- name: '🇦🇱 XolirX #121'
+  network: ws
+  ws-opts:
+    path: '%2F'
+    headers:
+      Host: www.google.com
+- name: '🇦🇱 XolirX #18'
   type: vless
-  server: s356.ccgfw.online
-  port: 443
-  uuid: 205d6869-02ca-3b36-b933-be2465250c7e
-  flow: xtls-rprx-vision
+  server: panel.dibaux.ir
+  port: 80
+  uuid: 31445bd8-5cfb-4fc4-899f-216cbc119bd4
+  flow: ''
   udp: true
   skip-cert-verify: false
-  tls: true
-  servername: u716087u09d7s356.ccgfw.online
-  client-fingerprint: random
-  network: tcp
-- name: '🇦🇱 XolirX #122'
+  network: ws
+  ws-opts:
+    path: '%2Fstream'
+    headers:
+      Host: panel.dibaux.ir
+- name: '🇦🇱 XolirX #19'
   type: vless
-  server: s359.ccgfw.online
-  port: 443
-  uuid: 205d6869-02ca-3b36-b933-be2465250c7e
-  flow: xtls-rprx-vision
+  server: panel.dibaux.ir
+  port: 80
+  uuid: 31445bd8-5cfb-4fc4-899f-216cbc119bd4
+  flow: ''
   udp: true
   skip-cert-verify: false
-  tls: true
-  servername: u716087u4da2s359.ccgfw.online
-  client-fingerprint: chrome
-  network: tcp
-- name: '🇦🇱 XolirX #123'
+  network: ws
+  ws-opts:
+    path: '%2Fstream'
+    headers:
+      Host: ''
+- name: '🇦🇱 XolirX #20'
   type: vless
-  server: s359.ccgfw.online
-  port: 443
-  uuid: 205d6869-02ca-3b36-b933-be2465250c7e
-  flow: xtls-rprx-vision
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: u716087u4da2s359.ccgfw.online
-  client-fingerprint: random
-  network: tcp
-- name: '🇦🇱 XolirX #124'
-  type: vless
-  server: s359.ccgfw.online
-  port: 443
-  uuid: 205d6869-02ca-3b36-b933-be2465250c7e
-  flow: xtls-rprx-vision
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: u716087u4da2s359.ccgfw.online
-  client-fingerprint: random
-  network: tcp
-- name: '🇦🇱 XolirX #125'
-  type: vless
-  server: s359.ccgfw.online
-  port: 443
-  uuid: 205d6869-02ca-3b36-b933-be2465250c7e
-  flow: xtls-rprx-vision
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: s359.ccgfw.online
-  client-fingerprint: chrome
-  network: tcp
-- name: '🇦🇱 XolirX #126'
-  type: vless
-  server: s356.ccgfw.online
-  port: 443
-  uuid: 205d6869-02ca-3b36-b933-be2465250c7e
-  flow: xtls-rprx-vision
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: s356.ccgfw.online
-  client-fingerprint: random
-  network: tcp
-- name: '🇦🇱 XolirX #127'
-  type: vless
-  server: cdn7-09.vk-cdnvideo.com
+  server: 91.198.77.242
   port: 8443
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  uuid: 3e809b21-e29b-49ec-a7fb-5301ec7c1cee
   flow: ''
   udp: true
   skip-cert-verify: false
-  tls: true
-  servername: cdn7-09.vk-cdnvideo.com
-  client-fingerprint: chrome
-  network: tcp
-- name: '🇦🇱 XolirX #128'
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ap.isowli.ir
+- name: '🇦🇱 XolirX #21'
   type: vless
-  server: cdn7-09.vk-cdnvideo.com
+  server: food.artmisserver.site
   port: 8443
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  uuid: 3e809b21-e29b-49ec-a7fb-5301ec7c1cee
   flow: ''
   udp: true
   skip-cert-verify: false
-  tls: true
-  client-fingerprint: chrome
-  network: tcp
-- name: '🇦🇱 XolirX #129'
-  type: vless
-  server: cdn7-09.vk-cdnvideo.com
-  port: 8443
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  network: tcp
-- name: '🇦🇱 XolirX #130'
-  type: vless
-  server: bi.amooyam.com
-  port: 443
-  uuid: f76c2df5-4f10-45e0-a4f3-cdb23a559f51
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: bi.amooyam.com
-  client-fingerprint: chrome
-  network: tcp
-- name: '🇦🇱 XolirX #131'
-  type: vless
-  server: cdn7-09.vk-cdnvideo.com
-  port: 8443
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  client-fingerprint: chrome
-  network: tcp
-- name: '🇦🇱 XolirX #132'
-  type: vless
-  server: pl.healthy-connected.com
-  port: 443
-  uuid: 4405aeb6-84fc-49ba-a42b-948a3b1ed13c
-  flow: xtls-rprx-vision
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: pl.healthy-connected.com
-  client-fingerprint: edge
-  reality-opts:
-    public-key: ep8sjqX2t_F-tn5SElD9RkuRimExyi9h1MA-F5ESa30
-    short-id: 30e570274c0c72cc
-  network: tcp
-- name: '🇦🇱 XolirX #133'
-  type: vless
-  server: 45.138.102.226
-  port: 443
-  uuid: f4bad870-4b45-4a46-bec6-d05fa31df1cb
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: m.twitch.tv
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: r2B2KwffHmyjWrmwKmI0o3uW9UEsn2l_Ko0UmyTjKgM
-    short-id: ''
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2F'
+  network: ws
+  ws-opts:
+    path: /
     headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #134'
+      Host: ap.isowli.ir
+- name: '🇦🇱 XolirX #22'
   type: vless
-  server: 45.138.102.226
-  port: 443
-  uuid: f4bad870-4b45-4a46-bec6-d05fa31df1cb
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: m.twitch.tv
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: r2B2KwffHmyjWrmwKmI0o3uW9UEsn2l_Ko0UmyTjKgM
-    short-id: ''
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - m.twitch.tv
-- name: '🇦🇱 XolirX #135'
-  type: vless
-  server: se.clgate.network
-  port: 443
-  uuid: f4bad870-4b45-4a46-bec6-d05fa31df1cb
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: m.twitch.tv
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: r2B2KwffHmyjWrmwKmI0o3uW9UEsn2l_Ko0UmyTjKgM
-    short-id: ''
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - m.twitch.tv
-- name: '🇦🇱 XolirX #136'
-  type: vless
-  server: se.clgate.network
-  port: 443
-  uuid: f4bad870-4b45-4a46-bec6-d05fa31df1cb
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: m.twitch.tv
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: r2B2KwffHmyjWrmwKmI0o3uW9UEsn2l_Ko0UmyTjKgM
-    short-id: ''
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #137'
-  type: vless
-  server: 89.22.229.189
-  port: 443
-  uuid: 2aa33f2a-d912-4bd5-9d15-7daa837094dc
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: m.twitch.tv
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: PfLfoWL4p_v1GtVDPFRACDbgDe0e1RGnOq8G6VpVxQQ
-    short-id: 9dd047c6c08a1b38
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2F'
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #138'
-  type: vless
-  server: 89.22.229.189
-  port: 443
-  uuid: 2aa33f2a-d912-4bd5-9d15-7daa837094dc
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: m.twitch.tv
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: PfLfoWL4p_v1GtVDPFRACDbgDe0e1RGnOq8G6VpVxQQ
-    short-id: 9dd047c6c08a1b38
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - '%2F'
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #139'
-  type: vless
-  server: 45.85.93.51
-  port: 443
-  uuid: 301d514e-4aa0-47b0-ba44-a0cb891cd52f
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: www.samsung.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: OZVjfQBboTDTBw0baMFqzVPsVUI4FNQmspTEb0b0zW4
-    short-id: a1b2c3d4
-  network: tcp
-- name: '🇦🇱 XolirX #140'
-  type: vless
-  server: nl1.thefastspeedtest.net
+  server: 31.130.149.125
   port: 443
   uuid: 5a4514a3-be28-4655-9bd7-5ef391d7949f
   flow: xtls-rprx-vision
@@ -2397,20 +322,7 @@ proxies:
     public-key: PuOP1VAIjcpq6sU_eUxV-z-u_WYFsu2hKIv2uye6804
     short-id: 90d8f7cfbc99d783
   network: tcp
-- name: '🇦🇱 XolirX #141'
-  type: vless
-  server: 185.143.233.234
-  port: 2052
-  uuid: f025c66e-47f3-4e00-a681-2866f17074f1
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u9.deltamarket3.ir
-- name: '🇦🇱 XolirX #142'
+- name: '🇦🇱 XolirX #23'
   type: vless
   server: 185.181.211.81
   port: 37141
@@ -2419,29 +331,7 @@ proxies:
   udp: true
   skip-cert-verify: false
   network: tcp
-- name: '🇦🇱 XolirX #143'
-  type: vless
-  server: nl-1.corsair-web.space
-  port: 443
-  uuid: a845ce7c-ea10-47b0-8de4-92810260eeab
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: www.mozilla.org
-  client-fingerprint: random
-  reality-opts:
-    public-key: RyG4_G8lDSqQK6eMy9zySlO2IjGtK9lzac5dqth_-Gc
-    short-id: e7bc91886be5ab85
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /api/v1
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #144'
+- name: '🇦🇱 XolirX #24'
   type: vless
   server: s642.ccgfw.top
   port: 443
@@ -2453,7 +343,7 @@ proxies:
   servername: u716087u4c78s642.ccgfw.top
   client-fingerprint: random
   network: tcp
-- name: '🇦🇱 XolirX #145'
+- name: '🇦🇱 XolirX #25'
   type: vless
   server: s642.ccgfw.top
   port: 443
@@ -2465,64 +355,82 @@ proxies:
   servername: s642.ccgfw.top
   client-fingerprint: random
   network: tcp
-- name: '🇦🇱 XolirX #146'
+- name: '🇦🇱 XolirX #26'
   type: vless
-  server: s643.ccgfw.top
+  server: s644.ccgfw.top
   port: 443
   uuid: 205d6869-02ca-3b36-b933-be2465250c7e
   flow: xtls-rprx-vision
   udp: true
   skip-cert-verify: false
   tls: true
-  servername: u716087u7190s643.ccgfw.top
+  servername: u716087ud3c8s644.ccgfw.top
   client-fingerprint: random
   network: tcp
-- name: '🇦🇱 XolirX #147'
+- name: '🇦🇱 XolirX #27'
   type: vless
-  server: s643.ccgfw.top
+  server: s644.ccgfw.top
   port: 443
   uuid: 205d6869-02ca-3b36-b933-be2465250c7e
   flow: xtls-rprx-vision
   udp: true
   skip-cert-verify: false
   tls: true
-  servername: s643.ccgfw.top
+  servername: s644.ccgfw.top
   client-fingerprint: random
   network: tcp
-- name: '🇦🇱 XolirX #148'
+- name: '🇦🇱 XolirX #28'
   type: vless
-  server: s77.okgfwbackxyz.xyz
+  server: 31.76.87.64
   port: 443
-  uuid: 205d6869-02ca-3b36-b933-be2465250c7e
-  flow: xtls-rprx-vision
+  uuid: a3e387a8-2284-45b8-b5ea-48837b9691ce
+  flow: ''
   udp: true
   skip-cert-verify: false
   tls: true
-  servername: u716087us77.okgfwbackxyz.xyz
-  network: tcp
-- name: '🇦🇱 XolirX #149'
+  servername: pl.gobalance.live
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - '%2Fapi%2Fv1%2Fevents'
+    headers:
+      Host:
+      - pl.gobalance.live
+- name: '🇦🇱 XolirX #29'
   type: vless
-  server: s77.okgfwbackxyz.xyz
+  server: 31.76.87.64
   port: 443
-  uuid: 205d6869-02ca-3b36-b933-be2465250c7e
-  flow: xtls-rprx-vision
+  uuid: a3e387a8-2284-45b8-b5ea-48837b9691ce
+  flow: ''
   udp: true
   skip-cert-verify: false
   tls: true
-  servername: s77.okgfwbackxyz.xyz
-  network: tcp
-- name: '🇦🇱 XolirX #150'
+  servername: pl.gobalance.live
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /api/v1/events
+    headers:
+      Host:
+      - ''
+- name: '🇦🇱 XolirX #30'
   type: vless
-  server: s77.okgfwbackxyz.xyz
+  server: de02.lumixvpn.org
   port: 443
-  uuid: 205d6869-02ca-3b36-b933-be2465250c7e
-  flow: xtls-rprx-vision
+  uuid: ed98e66d-5dbe-4b6d-9032-250e61eaf53f
+  flow: ''
   udp: true
   skip-cert-verify: false
   tls: true
-  servername: u716087us77.okgfwbackxyz.xyz
+  servername: de02.lumixvpn.org
+  client-fingerprint: qq
+  reality-opts:
+    public-key: DIHjDGgu5D5u6_MR58aXikctuSMiMsXM9TQO8AjnsFE
+    short-id: f2036d26b59e10f9
   network: tcp
-- name: '🇦🇱 XolirX #151'
+- name: '🇦🇱 XolirX #31'
   type: vless
   server: s860.okgfwbackxyz.xyz
   port: 443
@@ -2533,318 +441,7 @@ proxies:
   tls: true
   servername: u716087us860.okgfwbackxyz.xyz
   network: tcp
-- name: '🇦🇱 XolirX #152'
-  type: vless
-  server: s860.okgfwbackxyz.xyz
-  port: 443
-  uuid: 205d6869-02ca-3b36-b933-be2465250c7e
-  flow: xtls-rprx-vision
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: s860.okgfwbackxyz.xyz
-  network: tcp
-- name: '🇦🇱 XolirX #153'
-  type: vless
-  server: us-2.corsair-web.space
-  port: 443
-  uuid: a845ce7c-ea10-47b0-8de4-92810260eeab
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: www.bing.com
-  client-fingerprint: random
-  reality-opts:
-    public-key: JgYNi79i0n59dODBDn400yG2kfMON-OYJlep4Nx4eR8
-    short-id: 0950eb31afa408e0
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /fd/ls/GLinkPingPost.aspx
-    headers:
-      Host:
-      - ''
-- name: '🇦🇱 XolirX #154'
-  type: vless
-  server: 104.194.140.98
-  port: 8443
-  uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: us2.wxgqlfx.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: '%2FTG%40wxgqlfx'
-    headers:
-      Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #155'
-  type: vless
-  server: 185.103.252.54
-  port: 2053
-  uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: us2.wxgqlfx.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /TG@wxgqlfx
-    headers:
-      Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #156'
-  type: vless
-  server: 185.103.253.226
-  port: 2053
-  uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: us2.wxgqlfx.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /TG@wxgqlfx
-    headers:
-      Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #157'
-  type: vless
-  server: 185.198.165.92
-  port: 443
-  uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: us2.wxgqlfx.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: '%2FTG%40wxgqlfx'
-    headers:
-      Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #158'
-  type: vless
-  server: 188.253.27.65
-  port: 443
-  uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: us2.wxgqlfx.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: '%2FTG%40wxgqlfx'
-    headers:
-      Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #159'
-  type: vless
-  server: 217.154.53.220
-  port: 8443
-  uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: us2.wxgqlfx.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: '%2FTG%40wxgqlfx'
-    headers:
-      Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #160'
-  type: vless
-  server: 45.85.117.116
-  port: 443
-  uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: us2.wxgqlfx.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: '%2FTG%40wxgqlfx'
-    headers:
-      Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #161'
-  type: vless
-  server: 45.88.76.184
-  port: 443
-  uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: us2.wxgqlfx.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: '%2FTG%40wxgqlfx'
-    headers:
-      Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #162'
-  type: vless
-  server: 82.115.5.157
-  port: 443
-  uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: us2.wxgqlfx.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: '%2FTG%40wxgqlfx'
-    headers:
-      Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #163'
-  type: vless
-  server: 85.206.172.44
-  port: 443
-  uuid: c871b272-4bb8-4d52-a1a9-a94a19220aa0
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: us2.wxgqlfx.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: '%2FTG%40wxgqlfx'
-    headers:
-      Host: us2.wxgqlfx.xyz
-- name: '🇦🇱 XolirX #164'
-  type: vless
-  server: 5.8.10.39
-  port: 2040
-  uuid: 17451fec-af94-4715-8c2f-7f6839130d0a
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: tradingview.com
-  client-fingerprint: qq
-  reality-opts:
-    public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
-    short-id: 53197c66aef53c44
-  network: tcp
-- name: '🇦🇱 XolirX #165'
-  type: vless
-  server: spb-node.datamove.online
-  port: 2040
-  uuid: 17451fec-af94-4715-8c2f-7f6839130d0a
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: tradingview.com
-  client-fingerprint: qq
-  reality-opts:
-    public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
-    short-id: 53197c66aef53c44
-  network: tcp
-- name: '🇦🇱 XolirX #166'
-  type: vless
-  server: 154.211.8.84
-  port: 2083
-  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: proxy-3us.pages.dev
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: '%2F%3Fed%3D2560'
-    headers:
-      Host: proxy-3us.pages.dev
-- name: '🇦🇱 XolirX #167'
-  type: vless
-  server: 45.85.118.50
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: '%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2Fyoutube%40ZYFXS%F0%9F%87%A8%F0%9F%87%B3'
-    headers:
-      Host: vms.lifetime55.workers.dev
-- name: '🇦🇱 XolirX #168'
-  type: vless
-  server: 45.85.118.50
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: vms.lifetime55.workers.dev
-- name: '🇦🇱 XolirX #169'
-  type: vless
-  server: 198.62.62.18
-  port: 443
-  uuid: ace095c0-debd-46fd-903f-d29b9c8b4101
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: collection.linefriends.com.cyylr.eu.cc
-  network: ws
-  ws-opts:
-    path: /ae-bo
-    headers:
-      Host: collection.linefriends.com.cyylr.eu.cc
-- name: '🇦🇱 XolirX #170'
-  type: vless
-  server: 208.103.161.5
-  port: 443
-  uuid: d042a74a-c305-4eec-a89f-39a348022c92
-  flow: ''
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: dry-butterfly-8eb9.tmpgnacio83.workers.dev
-  network: ws
-  ws-opts:
-    path: '%2F'
-    headers:
-      Host: dry-butterfly-8eb9.tmpgnacio83.workers.dev
-- name: '🇦🇱 XolirX #171'
-  type: vless
-  server: 208.103.161.5
-  port: 443
-  uuid: d042a74a-c305-4eec-a89f-39a348022c92
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: dry-butterfly-8eb9.tmpgnacio83.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: dry-butterfly-8eb9.tmpgnacio83.workers.dev
-- name: '🇦🇱 XolirX #172'
+- name: '🇦🇱 XolirX #32'
   type: vless
   server: 208.103.161.170
   port: 443
@@ -2860,7 +457,38 @@ proxies:
     path: '%2Fid-pusat'
     headers:
       Host: help.viu.com.cyylr.eu.cc
-- name: '🇦🇱 XolirX #173'
+- name: '🇦🇱 XolirX #33'
+  type: vless
+  server: 208.103.161.170
+  port: 443
+  uuid: 2dc797c8-9588-48a6-bc4a-265c23d87cd6
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: ava.game.naver.com.cyylr.eu.cc
+  network: ws
+  ws-opts:
+    path: '%2Fid-pusat'
+    headers:
+      Host: ava.game.naver.com.cyylr.eu.cc
+- name: '🇦🇱 XolirX #34'
+  type: vless
+  server: 154.211.8.84
+  port: 2083
+  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: proxy-3us.pages.dev
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: '%2F%3Fed%3D2560'
+    headers:
+      Host: proxy-3us.pages.dev
+- name: '🇦🇱 XolirX #35'
   type: vless
   server: 208.103.161.170
   port: 443
@@ -2875,23 +503,38 @@ proxies:
     path: /id-pusat
     headers:
       Host: help.viu.com.cyylr.eu.cc
-- name: '🇦🇱 XolirX #174'
+- name: '🇦🇱 XolirX #36'
   type: vless
-  server: 157.238.236.3
-  port: 10031
-  uuid: 00000000-0000-4000-8000-000000000000
+  server: 208.103.161.170
+  port: 443
+  uuid: 2dc797c8-9588-48a6-bc4a-265c23d87cd6
   flow: ''
   udp: true
   skip-cert-verify: false
   tls: true
-  servername: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
+  servername: ava.game.naver.com.cyylr.eu.cc
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: '%2F%40Marisa_kristi'
+    path: '%2Fid-pusat'
     headers:
-      Host: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
-- name: '🇦🇱 XolirX #175'
+      Host: ava.game.naver.com.cyylr.eu.cc
+- name: '🇦🇱 XolirX #37'
+  type: vless
+  server: 198.62.62.18
+  port: 443
+  uuid: ace095c0-debd-46fd-903f-d29b9c8b4101
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: collection.linefriends.com.cyylr.eu.cc
+  network: ws
+  ws-opts:
+    path: /ae-bo
+    headers:
+      Host: collection.linefriends.com.cyylr.eu.cc
+- name: '🇦🇱 XolirX #38'
   type: vless
   server: blit1.hamrahcore.ir
   port: 719
@@ -2904,22 +547,7 @@ proxies:
     path: '%2Fapi%2Fv2%2Fxtrnwqjbkr%3Fed%3D2560'
     headers:
       Host: play.google.com
-- name: '🇦🇱 XolirX #176'
-  type: vless
-  server: auto.datamove.online
-  port: 2040
-  uuid: 17451fec-af94-4715-8c2f-7f6839130d0a
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: tradingview.com
-  client-fingerprint: qq
-  reality-opts:
-    public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
-    short-id: 53197c66aef53c44
-  network: tcp
-- name: '🇦🇱 XolirX #177'
+- name: '🇦🇱 XolirX #39'
   type: vless
   server: 208.103.161.170
   port: 443
@@ -2934,7 +562,23 @@ proxies:
     path: '%2Ftsghdws'
     headers:
       Host: octopusss4.com
-- name: '🇦🇱 XolirX #178'
+- name: '🇦🇱 XolirX #40'
+  type: vless
+  server: 208.103.161.170
+  port: 443
+  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: octopusss4.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /tsghdws
+    headers:
+      Host: octopusss4.com
+- name: '🇦🇱 XolirX #41'
   type: vless
   server: bc-pl-1c.ray-balance.space
   port: 4443
@@ -2945,7 +589,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: ''
-- name: '🇦🇱 XolirX #179'
+- name: '🇦🇱 XolirX #42'
   type: vless
   server: bc-pl-1c.ray-balance.space
   port: 4443
@@ -3004,143 +648,6 @@ proxy-groups:
   - '🇦🇱 XolirX #40'
   - '🇦🇱 XolirX #41'
   - '🇦🇱 XolirX #42'
-  - '🇦🇱 XolirX #43'
-  - '🇦🇱 XolirX #44'
-  - '🇦🇱 XolirX #45'
-  - '🇦🇱 XolirX #46'
-  - '🇦🇱 XolirX #47'
-  - '🇦🇱 XolirX #48'
-  - '🇦🇱 XolirX #49'
-  - '🇦🇱 XolirX #50'
-  - '🇦🇱 XolirX #51'
-  - '🇦🇱 XolirX #52'
-  - '🇦🇱 XolirX #53'
-  - '🇦🇱 XolirX #54'
-  - '🇦🇱 XolirX #55'
-  - '🇦🇱 XolirX #56'
-  - '🇦🇱 XolirX #57'
-  - '🇦🇱 XolirX #58'
-  - '🇦🇱 XolirX #59'
-  - '🇦🇱 XolirX #60'
-  - '🇦🇱 XolirX #61'
-  - '🇦🇱 XolirX #62'
-  - '🇦🇱 XolirX #63'
-  - '🇦🇱 XolirX #64'
-  - '🇦🇱 XolirX #65'
-  - '🇦🇱 XolirX #66'
-  - '🇦🇱 XolirX #67'
-  - '🇦🇱 XolirX #68'
-  - '🇦🇱 XolirX #69'
-  - '🇦🇱 XolirX #70'
-  - '🇦🇱 XolirX #71'
-  - '🇦🇱 XolirX #72'
-  - '🇦🇱 XolirX #73'
-  - '🇦🇱 XolirX #74'
-  - '🇦🇱 XolirX #75'
-  - '🇦🇱 XolirX #76'
-  - '🇦🇱 XolirX #77'
-  - '🇦🇱 XolirX #78'
-  - '🇦🇱 XolirX #79'
-  - '🇦🇱 XolirX #80'
-  - '🇦🇱 XolirX #81'
-  - '🇦🇱 XolirX #82'
-  - '🇦🇱 XolirX #83'
-  - '🇦🇱 XolirX #84'
-  - '🇦🇱 XolirX #85'
-  - '🇦🇱 XolirX #86'
-  - '🇦🇱 XolirX #87'
-  - '🇦🇱 XolirX #88'
-  - '🇦🇱 XolirX #89'
-  - '🇦🇱 XolirX #90'
-  - '🇦🇱 XolirX #91'
-  - '🇦🇱 XolirX #92'
-  - '🇦🇱 XolirX #93'
-  - '🇦🇱 XolirX #94'
-  - '🇦🇱 XolirX #95'
-  - '🇦🇱 XolirX #96'
-  - '🇦🇱 XolirX #97'
-  - '🇦🇱 XolirX #98'
-  - '🇦🇱 XolirX #99'
-  - '🇦🇱 XolirX #100'
-  - '🇦🇱 XolirX #101'
-  - '🇦🇱 XolirX #102'
-  - '🇦🇱 XolirX #103'
-  - '🇦🇱 XolirX #104'
-  - '🇦🇱 XolirX #105'
-  - '🇦🇱 XolirX #106'
-  - '🇦🇱 XolirX #107'
-  - '🇦🇱 XolirX #108'
-  - '🇦🇱 XolirX #109'
-  - '🇦🇱 XolirX #110'
-  - '🇦🇱 XolirX #111'
-  - '🇦🇱 XolirX #112'
-  - '🇦🇱 XolirX #113'
-  - '🇦🇱 XolirX #114'
-  - '🇦🇱 XolirX #115'
-  - '🇦🇱 XolirX #116'
-  - '🇦🇱 XolirX #117'
-  - '🇦🇱 XolirX #118'
-  - '🇦🇱 XolirX #119'
-  - '🇦🇱 XolirX #120'
-  - '🇦🇱 XolirX #121'
-  - '🇦🇱 XolirX #122'
-  - '🇦🇱 XolirX #123'
-  - '🇦🇱 XolirX #124'
-  - '🇦🇱 XolirX #125'
-  - '🇦🇱 XolirX #126'
-  - '🇦🇱 XolirX #127'
-  - '🇦🇱 XolirX #128'
-  - '🇦🇱 XolirX #129'
-  - '🇦🇱 XolirX #130'
-  - '🇦🇱 XolirX #131'
-  - '🇦🇱 XolirX #132'
-  - '🇦🇱 XolirX #133'
-  - '🇦🇱 XolirX #134'
-  - '🇦🇱 XolirX #135'
-  - '🇦🇱 XolirX #136'
-  - '🇦🇱 XolirX #137'
-  - '🇦🇱 XolirX #138'
-  - '🇦🇱 XolirX #139'
-  - '🇦🇱 XolirX #140'
-  - '🇦🇱 XolirX #141'
-  - '🇦🇱 XolirX #142'
-  - '🇦🇱 XolirX #143'
-  - '🇦🇱 XolirX #144'
-  - '🇦🇱 XolirX #145'
-  - '🇦🇱 XolirX #146'
-  - '🇦🇱 XolirX #147'
-  - '🇦🇱 XolirX #148'
-  - '🇦🇱 XolirX #149'
-  - '🇦🇱 XolirX #150'
-  - '🇦🇱 XolirX #151'
-  - '🇦🇱 XolirX #152'
-  - '🇦🇱 XolirX #153'
-  - '🇦🇱 XolirX #154'
-  - '🇦🇱 XolirX #155'
-  - '🇦🇱 XolirX #156'
-  - '🇦🇱 XolirX #157'
-  - '🇦🇱 XolirX #158'
-  - '🇦🇱 XolirX #159'
-  - '🇦🇱 XolirX #160'
-  - '🇦🇱 XolirX #161'
-  - '🇦🇱 XolirX #162'
-  - '🇦🇱 XolirX #163'
-  - '🇦🇱 XolirX #164'
-  - '🇦🇱 XolirX #165'
-  - '🇦🇱 XolirX #166'
-  - '🇦🇱 XolirX #167'
-  - '🇦🇱 XolirX #168'
-  - '🇦🇱 XolirX #169'
-  - '🇦🇱 XolirX #170'
-  - '🇦🇱 XolirX #171'
-  - '🇦🇱 XolirX #172'
-  - '🇦🇱 XolirX #173'
-  - '🇦🇱 XolirX #174'
-  - '🇦🇱 XolirX #175'
-  - '🇦🇱 XolirX #176'
-  - '🇦🇱 XolirX #177'
-  - '🇦🇱 XolirX #178'
-  - '🇦🇱 XolirX #179'
 - name: DIRECT
   type: select
   proxies:
