@@ -46,21 +46,21 @@
     {
       "type": "vless",
       "tag": "🇦🇱 XolirX #1",
-      "server": "95.128.71.74",
+      "server": "b02.connectv.net",
       "server_port": 443,
-      "uuid": "46131752-b3d9-4548-9890-13cae88c531b",
+      "uuid": "c4c9bfd7-4bdc-0007-ae64-185ffb553ae6",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "fastsync.xyz",
+        "server_name": "b02.connectv.net",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "rfed3aqchLeWtXyEl3AsbPGODbqXdx-3Mq41JVPQWVY",
+          "public_key": "0RegtdcQHk9Fg95kgn5jmRglN6N3sdk3ZhrFXvmbrgk",
           "short_id": ""
         }
       }
@@ -68,21 +68,21 @@
     {
       "type": "vless",
       "tag": "🇦🇱 XolirX #2",
-      "server": "109.69.218.213",
-      "server_port": 8443,
-      "uuid": "46131752-b3d9-4548-9890-13cae88c531b",
+      "server": "b02.connectv.net",
+      "server_port": 443,
+      "uuid": "c4c9bfd7-4bdc-0007-ae64-185ffb553ae6",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "fastsync.xyz",
+        "server_name": "",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "JXqn8FOHmfs-mHTOscgUre9jVZosOPQbwiNjjRXtYmw",
+          "public_key": "0RegtdcQHk9Fg95kgn5jmRglN6N3sdk3ZhrFXvmbrgk",
           "short_id": ""
         }
       }
@@ -90,82 +90,6 @@
     {
       "type": "vless",
       "tag": "🇦🇱 XolirX #3",
-      "server": "89.19.223.167",
-      "server_port": 8443,
-      "uuid": "e77e2c21-f469-4474-8f94-e2f2e67fcb58",
-      "flow": "",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇱 XolirX #4",
-      "server": "tal.odavpn.online",
-      "server_port": 443,
-      "uuid": "fb7fe921-1032-45fe-ae9d-20090976e572",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.amd.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "_5YItXYM7SPX7baBG4Fl1MDBE7UvDC8sOx8-0VVueBA",
-          "short_id": "41774dc9dc721e"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "path": "%2Fapi%2Fv1%2Fupdate",
-        "host": [
-          "www.amd.com"
-        ]
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇱 XolirX #5",
-      "server": "uuipo.ice.lol",
-      "server_port": 39557,
-      "uuid": "eb89ef26-0ce1-4bc7-9ffd-cdc7b80dba7c",
-      "flow": "",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "%2Fwssss",
-        "headers": {
-          "Host": "uuipo.ice.lol"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇱 XolirX #6",
-      "server": "uuipo.ice.lol",
-      "server_port": 39557,
-      "uuid": "eb89ef26-0ce1-4bc7-9ffd-cdc7b80dba7c",
-      "flow": "",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "%2Fwssss",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇱 XolirX #7",
       "server": "213.165.57.223",
       "server_port": 4443,
       "uuid": "0eca1f22-e5a1-4888-a0fa-c2345e87cf2f",
@@ -180,7 +104,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #8",
+      "tag": "🇦🇱 XolirX #4",
       "server": "bc-de-wc.ray-balance.space",
       "server_port": 4443,
       "uuid": "0eca1f22-e5a1-4888-a0fa-c2345e87cf2f",
@@ -195,44 +119,28 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #9",
-      "server": "31.57.93.147",
-      "server_port": 443,
-      "uuid": "d64f375e-6961-4853-bc95-9bcf6d1a4cec",
+      "tag": "🇦🇱 XolirX #5",
+      "server": "mee.api50951.ir",
+      "server_port": 8880,
+      "uuid": "fd41bd79-3114-4ef9-893a-793386f28d41",
       "flow": "",
       "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "%2F",
-        "headers": {
-          "Host": "snapp.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇱 XolirX #10",
-      "server": "151.101.130.133",
-      "server_port": 80,
-      "uuid": "96eec36e-2c44-5b09-898e-6f0f0526e57f",
-      "flow": "",
-      "tls": {
-        "enabled": false
+        "enabled": true,
+        "server_name": "soft98.ir",
+        "insecure": true
       },
       "transport": {
         "type": "http",
-        "path": "%2Flogin",
+        "path": "%2F",
         "host": [
-          "shangulin.global.ssl.fastly.net"
+          ""
         ]
       }
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #11",
-      "server": "23.235.42.205",
+      "tag": "🇦🇱 XolirX #6",
+      "server": "151.101.130.133",
       "server_port": 80,
       "uuid": "96eec36e-2c44-5b09-898e-6f0f0526e57f",
       "flow": "",
@@ -249,51 +157,65 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #12",
-      "server": "37.49.230.92",
-      "server_port": 443,
-      "uuid": "46131752-b3d9-4548-9890-13cae88c531b",
+      "tag": "🇦🇱 XolirX #7",
+      "server": "23.235.42.205",
+      "server_port": 80,
+      "uuid": "96eec36e-2c44-5b09-898e-6f0f0526e57f",
+      "flow": "",
+      "tls": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "http",
+        "path": "%2Flogin",
+        "host": [
+          "shangulin.global.ssl.fastly.net"
+        ]
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇱 XolirX #8",
+      "server": "151.101.128.223",
+      "server_port": 80,
+      "uuid": "InternetAzadRobot",
+      "flow": "",
+      "tls": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "http",
+        "path": "%2Flogin",
+        "host": [
+          "shangulin.global.ssl.fastly.net"
+        ]
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇱 XolirX #9",
+      "server": "transparency.cloud-fr.appcore.org",
+      "server_port": 34754,
+      "uuid": "35762c02-ff2b-4526-b41b-e96e5d99528b",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "s3.tehno.store",
+        "server_name": "yahoo.com",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "Cbu6fkQiURQES7hfw916CFcfZYvRXMMgVmxnpK6CgSQ",
-          "short_id": ""
+          "public_key": "eMijZKuJlNEciXbhyzdbewk-ot_JLMZVaA42bxKFcBM",
+          "short_id": "c9eb0359fac0c345"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #13",
-      "server": "37.49.230.95",
-      "server_port": 443,
-      "uuid": "46131752-b3d9-4548-9890-13cae88c531b",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "s3.tehno.store",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Cbu6fkQiURQES7hfw916CFcfZYvRXMMgVmxnpK6CgSQ",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇱 XolirX #14",
+      "tag": "🇦🇱 XolirX #10",
       "server": "66.201.4.248",
       "server_port": 443,
       "uuid": "6048cd5b-621f-40c6-bf81-3855e4c069b1",
@@ -315,7 +237,25 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #15",
+      "tag": "🇦🇱 XolirX #11",
+      "server": "speedtest.net",
+      "server_port": 80,
+      "uuid": "96eec36e-2c44-5b09-898e-6f0f0526e57f",
+      "flow": "",
+      "tls": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "http",
+        "path": "%2FTignaliSWithYou",
+        "host": [
+          "tignaltofan.global.ssl.fastly.net"
+        ]
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇱 XolirX #12",
       "server": "151.101.128.223",
       "server_port": 80,
       "uuid": "InternetAzadRobot",
@@ -333,7 +273,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #16",
+      "tag": "🇦🇱 XolirX #13",
       "server": "speedtest.net",
       "server_port": 80,
       "uuid": "InternetAzadRobot",
@@ -351,7 +291,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #17",
+      "tag": "🇦🇱 XolirX #14",
       "server": "165.215.250.0",
       "server_port": 2087,
       "uuid": "98bca91e-e8cc-4184-97e6-9cec0885da42",
@@ -375,31 +315,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #18",
-      "server": "165.215.250.0",
-      "server_port": 2087,
-      "uuid": "98bca91e-e8cc-4184-97e6-9cec0885da42",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "frws.silorano.ir",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "path": "/digikala.com/login/?ed=2560",
-        "host": [
-          ""
-        ]
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇱 XolirX #19",
+      "tag": "🇦🇱 XolirX #15",
       "server": "151.101.192.223",
       "server_port": 80,
       "uuid": "InternetAzadRobot-AliKiller",
@@ -417,72 +333,66 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #20",
-      "server": "de-s3.ru",
+      "tag": "🇦🇱 XolirX #16",
+      "server": "down.spectrumproxy.shop",
       "server_port": 443,
-      "uuid": "e77e2c21-f469-4474-8f94-e2f2e67fcb58",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "de-s3.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "CmKaRa0TecpFSyn7OK6UTPPuWJ7ji2OwsaOBuUtSKGM",
-          "short_id": "7a3f9e2b1c8d4f6a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇱 XolirX #21",
-      "server": "l1-2.l-itx.info",
-      "server_port": 7443,
-      "uuid": "f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4",
+      "uuid": "76713d07-5a6b-49c2-abd8-bc450a2fa7fc",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "colorlib.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA",
-          "short_id": ""
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "xyz"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇱 XolirX #22",
-      "server": "46.229.243.72",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn7-09.vk-cdnvideo.com",
+        "server_name": "down.spectrumproxy.shop",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ckd_LwbbFo8BYf9vT84B20P6EL1n6vl2yMxoXc6X4SA",
+          "short_id": "a1c1d7e2f9b3"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "vless"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇱 XolirX #17",
+      "server": "84.200.33.81",
+      "server_port": 2056,
+      "uuid": "07e326bb-801c-49fc-9005-d2a3e9673e89",
+      "flow": "",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇱 XolirX #18",
+      "server": "94.131.16.12",
+      "server_port": 443,
+      "uuid": "63a16ebb-8687-42ac-972a-5914cafad1d5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Re4bwcu3tj9zJQlIQDm_kJ1MPvGH5WxUGroE2ZvxeDI",
+          "short_id": "abc431"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #23",
+      "tag": "🇦🇱 XolirX #19",
       "server": "77.74.123.167",
       "server_port": 8443,
       "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
@@ -499,8 +409,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #24",
-      "server": "162.249.126.76",
+      "tag": "🇦🇱 XolirX #20",
+      "server": "46.229.243.137",
       "server_port": 8443,
       "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
       "flow": "",
@@ -516,8 +426,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #25",
-      "server": "46.229.243.70",
+      "tag": "🇦🇱 XolirX #21",
+      "server": "77.74.123.171",
       "server_port": 8443,
       "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
       "flow": "",
@@ -533,54 +443,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #26",
-      "server": "77.74.123.168",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn7-09.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇱 XolirX #27",
-      "server": "cdn7-09.vk-cdnvideo.com",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇱 XolirX #28",
-      "server": "cdn7-09.vk-cdnvideo.com",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇱 XolirX #29",
+      "tag": "🇦🇱 XolirX #22",
       "server": "2.26.88.118",
       "server_port": 8443,
       "uuid": "785c7771-8d7f-48ca-bbc2-1a22e360d4d0",
@@ -606,88 +469,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #30",
-      "server": "37.203.35.59",
-      "server_port": 443,
-      "uuid": "bb2ee88f-b178-4f81-91e6-ac85fdffe454",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "YtMwlaOi_MU9kXcCgFef_-GrHTWNyiHR1UWGo24daAk",
-          "short_id": "1ec4acc748fb237e"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇱 XolirX #31",
-      "server": "login.sempai.site",
-      "server_port": 443,
-      "uuid": "73a27a6d-a111-4576-a6b3-e8594aeac2f2",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "front.xwhiteness.site",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "HSxmRrAGkb_RPkm7rLyqr9tVCGzd9thesrdcgENYShA",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇱 XolirX #32",
-      "server": "89.19.223.140",
-      "server_port": 8443,
-      "uuid": "e77e2c21-f469-4474-8f94-e2f2e67fcb58",
-      "flow": "",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇱 XolirX #33",
-      "server": "l10.l-itx.info",
-      "server_port": 7443,
-      "uuid": "f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "colorlib.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA",
-          "short_id": ""
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "xyz"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇱 XolirX #34",
+      "tag": "🇦🇱 XolirX #23",
       "server": "tw3.miyazono-kaori.com",
       "server_port": 443,
       "uuid": "bce38beb-a6d0-41d7-9c0a-26eed9a6634d",
@@ -709,7 +491,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #35",
+      "tag": "🇦🇱 XolirX #24",
       "server": "89.124.69.82",
       "server_port": 1310,
       "uuid": "33bb6880-03c0-5ada-b3fe-4c5300cbd8b4",
@@ -727,139 +509,55 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #36",
-      "server": "89.124.69.82",
-      "server_port": 1310,
-      "uuid": "33bb6880-03c0-5ada-b3fe-4c5300cbd8b4",
+      "tag": "🇦🇱 XolirX #25",
+      "server": "91.198.77.242",
+      "server_port": 8443,
+      "uuid": "3e809b21-e29b-49ec-a7fb-5301ec7c1cee",
       "flow": "",
       "tls": {
         "enabled": false
       },
       "transport": {
         "type": "ws",
-        "path": "%2F%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia",
+        "path": "%2F",
         "headers": {
-          "Host": "play.google.com"
+          "Host": "ap.isowli.ir"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #37",
-      "server": "117.55.203.204",
+      "tag": "🇦🇱 XolirX #26",
+      "server": "food.artmisserver.site",
       "server_port": 8443,
-      "uuid": "46131752-b3d9-4548-9890-13cae88c531b",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JzqgD1kR5xVXfl4VkI-2tvFaRpK3ad0ZRTI4RUwyLWk",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇱 XolirX #38",
-      "server": "nl-s3.ru",
-      "server_port": 443,
-      "uuid": "e77e2c21-f469-4474-8f94-e2f2e67fcb58",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "nl-s3.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "f0ZKjq1EcKFheb5Xy6KXNwZ55cGb1LsF-YjuJq8i3gY",
-          "short_id": "7a3f9e2b1c8d4f6a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇱 XolirX #39",
-      "server": "89.124.69.82",
-      "server_port": 1310,
-      "uuid": "v2raydia",
+      "uuid": "3e809b21-e29b-49ec-a7fb-5301ec7c1cee",
       "flow": "",
       "tls": {
         "enabled": false
       },
       "transport": {
         "type": "ws",
-        "path": "%2F%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia",
+        "path": "/",
         "headers": {
-          "Host": "play.google.com"
+          "Host": "ap.isowli.ir"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #40",
-      "server": "nert.96s.ir",
-      "server_port": 80,
-      "uuid": "f29fb004-34cc-424d-96bf-af70190e6e3d",
+      "tag": "🇦🇱 XolirX #27",
+      "server": "185.181.211.81",
+      "server_port": 37141,
+      "uuid": "71310f0a-1c4f-492d-8dec-fd755639d08a",
       "flow": "",
       "tls": {
-        "enabled": true,
-        "server_name": "www.yahoo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "bPC70WXyPEUh8l4LSTdbACXer6Fhpw4tVwoMYLD_oxc",
-          "short_id": "9d7b90df3283d95a"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "path": "/obito",
-        "host": [
-          "nert.96s.ir"
-        ]
+        "enabled": false
       }
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #41",
-      "server": "37.221.79.82",
-      "server_port": 8443,
-      "uuid": "turboo-server",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "uR_F-q8uKlvbupF9UyJBi-p5afcqzKM7OrBfNAwFtU0",
-          "short_id": "f7c096"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇱 XolirX #42",
-      "server": "31.76.126.129",
+      "tag": "🇦🇱 XolirX #28",
+      "server": "31.76.126.141",
       "server_port": 2040,
       "uuid": "17451fec-af94-4715-8c2f-7f6839130d0a",
       "flow": "",
@@ -880,14 +578,78 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #43",
-      "server": "bg-s3.ru",
+      "tag": "🇦🇱 XolirX #29",
+      "server": "auto.datamove.online",
+      "server_port": 2040,
+      "uuid": "17451fec-af94-4715-8c2f-7f6839130d0a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "tradingview.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0",
+          "short_id": "53197c66aef53c44"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇱 XolirX #30",
+      "server": "31.76.87.64",
       "server_port": 443,
-      "uuid": "e77e2c21-f469-4474-8f94-e2f2e67fcb58",
+      "uuid": "a3e387a8-2284-45b8-b5ea-48837b9691ce",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl.gobalance.live",
+        "insecure": false
+      },
+      "transport": {
+        "type": "http",
+        "path": "/api/v1/events",
+        "host": [
+          ""
+        ]
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇱 XolirX #31",
+      "server": "us.healthy-connected.com",
+      "server_port": 443,
+      "uuid": "4405aeb6-84fc-49ba-a42b-948a3b1ed13c",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "bg-s3.ru",
+        "server_name": "",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ep8sjqX2t_F-tn5SElD9RkuRimExyi9h1MA-F5ESa30",
+          "short_id": "30e570274c0c72cc"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇱 XolirX #32",
+      "server": "us.healthy-connected.com",
+      "server_port": 443,
+      "uuid": "4405aeb6-84fc-49ba-a42b-948a3b1ed13c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "us.healthy-connected.com",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -895,76 +657,124 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "YJcT7zmUKg1Tk38VCE8zZQ641w1kfRk8GaLssKHhvDg",
-          "short_id": "7a3f9e2b1c8d4f6a"
+          "public_key": "ep8sjqX2t_F-tn5SElD9RkuRimExyi9h1MA-F5ESa30",
+          "short_id": "30e570274c0c72cc"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #44",
-      "server": "167.104.223.14",
+      "tag": "🇦🇱 XolirX #33",
+      "server": "us.healthy-connected.com",
       "server_port": 443,
-      "uuid": "b67ed271-5a34-4d07-9970-f8ba27ca2c8a",
+      "uuid": "4405aeb6-84fc-49ba-a42b-948a3b1ed13c",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "us.healthy-connected.com",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "gXc2c9NIWxhUTb7HoBCjvo-uB1L4iQj4TH38g4YhxHE",
-          "short_id": "fcd9787f"
+          "public_key": "ep8sjqX2t_F-tn5SElD9RkuRimExyi9h1MA-F5ESa30",
+          "short_id": "30e570274c0c72cc"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #45",
-      "server": "140.248.187.74",
-      "server_port": 80,
-      "uuid": "289591d4-bfab-4092-85db-b97772b109de",
+      "tag": "🇦🇱 XolirX #34",
+      "server": "us.healthy-connected.com",
+      "server_port": 443,
+      "uuid": "4405aeb6-84fc-49ba-a42b-948a3b1ed13c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ep8sjqX2t_F-tn5SElD9RkuRimExyi9h1MA-F5ESa30",
+          "short_id": "30e570274c0c72cc"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇱 XolirX #35",
+      "server": "us.healthy-connected.com",
+      "server_port": 443,
+      "uuid": "4405aeb6-84fc-49ba-a42b-948a3b1ed13c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ep8sjqX2t_F-tn5SElD9RkuRimExyi9h1MA-F5ESa30",
+          "short_id": "30e570274c0c72cc"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇱 XolirX #36",
+      "server": "us.healthy-connected.com",
+      "server_port": 443,
+      "uuid": "4405aeb6-84fc-49ba-a42b-948a3b1ed13c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ep8sjqX2t_F-tn5SElD9RkuRimExyi9h1MA-F5ESa30",
+          "short_id": "30e570274c0c72cc"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇱 XolirX #37",
+      "server": "47.77.214.201",
+      "server_port": 10035,
+      "uuid": "e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2",
       "flow": "",
       "tls": {
         "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "ws%2F%3Fed%3D2048%2F%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%40AzadMarz%2F%3F2048",
-        "headers": {
-          "Host": "rb24.ir"
-        }
       }
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #46",
-      "server": "89.125.56.51",
-      "server_port": 443,
-      "uuid": "d6eb05cb-6457-45ce-b6d8-73d8074f7607",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇦🇱 XolirX #38",
+      "server": "47.77.214.201",
+      "server_port": 10035,
+      "uuid": "e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2",
+      "flow": "",
       "tls": {
-        "enabled": true,
-        "server_name": "www.yandex.tr",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "hDRjWrh79Q_8n_arughd11tjca1ElB--lQp-fgpzp0w",
-          "short_id": "4a7fa62787fa"
-        }
+        "enabled": false
       }
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #47",
+      "tag": "🇦🇱 XolirX #39",
       "server": "144.31.171.101",
       "server_port": 4443,
       "uuid": "0eca1f22-e5a1-4888-a0fa-c2345e87cf2f",
@@ -979,7 +789,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #48",
+      "tag": "🇦🇱 XolirX #40",
       "server": "144.31.171.103",
       "server_port": 4443,
       "uuid": "0eca1f22-e5a1-4888-a0fa-c2345e87cf2f",
@@ -994,22 +804,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #49",
-      "server": "144.31.171.104",
-      "server_port": 4443,
-      "uuid": "0eca1f22-e5a1-4888-a0fa-c2345e87cf2f",
-      "flow": "",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇱 XolirX #50",
+      "tag": "🇦🇱 XolirX #41",
       "server": "144.31.171.105",
       "server_port": 4443,
       "uuid": "0eca1f22-e5a1-4888-a0fa-c2345e87cf2f",
@@ -1024,7 +819,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #51",
+      "tag": "🇦🇱 XolirX #42",
       "server": "144.31.171.106",
       "server_port": 4443,
       "uuid": "0eca1f22-e5a1-4888-a0fa-c2345e87cf2f",
@@ -1039,7 +834,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #52",
+      "tag": "🇦🇱 XolirX #43",
       "server": "144.31.171.107",
       "server_port": 4443,
       "uuid": "0eca1f22-e5a1-4888-a0fa-c2345e87cf2f",
@@ -1054,7 +849,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #53",
+      "tag": "🇦🇱 XolirX #44",
       "server": "144.31.171.98",
       "server_port": 4443,
       "uuid": "0eca1f22-e5a1-4888-a0fa-c2345e87cf2f",
@@ -1069,7 +864,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #54",
+      "tag": "🇦🇱 XolirX #45",
       "server": "144.31.171.99",
       "server_port": 4443,
       "uuid": "0eca1f22-e5a1-4888-a0fa-c2345e87cf2f",
@@ -1084,7 +879,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #55",
+      "tag": "🇦🇱 XolirX #46",
       "server": "bc-pl-1c.ray-balance.space",
       "server_port": 4443,
       "uuid": "0eca1f22-e5a1-4888-a0fa-c2345e87cf2f",
@@ -1099,22 +894,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 XolirX #56",
-      "server": "144.31.171.102",
-      "server_port": 4443,
-      "uuid": "0eca1f22-e5a1-4888-a0fa-c2345e87cf2f",
-      "flow": "",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇱 XolirX #57",
+      "tag": "🇦🇱 XolirX #47",
       "server": "bc-pl-1c.ray-balance.space",
       "server_port": 4443,
       "uuid": "0eca1f22-e5a1-4888-a0fa-c2345e87cf2f",
@@ -1185,17 +965,7 @@
         "🇦🇱 XolirX #44",
         "🇦🇱 XolirX #45",
         "🇦🇱 XolirX #46",
-        "🇦🇱 XolirX #47",
-        "🇦🇱 XolirX #48",
-        "🇦🇱 XolirX #49",
-        "🇦🇱 XolirX #50",
-        "🇦🇱 XolirX #51",
-        "🇦🇱 XolirX #52",
-        "🇦🇱 XolirX #53",
-        "🇦🇱 XolirX #54",
-        "🇦🇱 XolirX #55",
-        "🇦🇱 XolirX #56",
-        "🇦🇱 XolirX #57"
+        "🇦🇱 XolirX #47"
       ]
     }
   ],
