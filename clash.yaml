@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: '🇪🇪 Estonia, Tallinn #1 (из 47)'
+- name: '🇪🇪 Эстония #1'
   type: vless
   server: b02.connectv.net
   port: 443
@@ -20,7 +20,7 @@ proxies:
     public-key: 0RegtdcQHk9Fg95kgn5jmRglN6N3sdk3ZhrFXvmbrgk
     short-id: ''
   network: tcp
-- name: '🇪🇪 Estonia, Tallinn #2 (из 47)'
+- name: '🇪🇪 Эстония #2'
   type: vless
   server: b02.connectv.net
   port: 443
@@ -34,7 +34,7 @@ proxies:
     public-key: 0RegtdcQHk9Fg95kgn5jmRglN6N3sdk3ZhrFXvmbrgk
     short-id: ''
   network: tcp
-- name: '🇫🇮 Finland, Helsinki #3 (из 47)'
+- name: '🇫🇮 Финляндия #3'
   type: vless
   server: 213.165.57.223
   port: 4443
@@ -45,7 +45,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: ''
-- name: '🇫🇮 Finland, Helsinki #4 (из 47)'
+- name: '🇫🇮 Финляндия #4'
   type: vless
   server: bc-de-wc.ray-balance.space
   port: 4443
@@ -56,7 +56,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: ''
-- name: '🇫🇮 Finland, Helsinki #5 (из 47)'
+- name: '🇫🇮 Финляндия #5'
   type: vless
   server: mee.api50951.ir
   port: 8880
@@ -74,7 +74,7 @@ proxies:
     headers:
       Host:
       - ''
-- name: '🇫🇷 France, Gravelines #6 (из 47)'
+- name: '🇫🇷 Франция #6'
   type: vless
   server: 151.101.130.133
   port: 80
@@ -90,7 +90,7 @@ proxies:
     headers:
       Host:
       - shangulin.global.ssl.fastly.net
-- name: '🇫🇷 France, Gravelines #7 (из 47)'
+- name: '🇫🇷 Франция #7'
   type: vless
   server: 23.235.42.205
   port: 80
@@ -106,7 +106,7 @@ proxies:
     headers:
       Host:
       - shangulin.global.ssl.fastly.net
-- name: '🇫🇷 France, Gravelines #8 (из 47)'
+- name: '🇫🇷 Франция #8'
   type: vless
   server: 151.101.128.223
   port: 80
@@ -122,7 +122,7 @@ proxies:
     headers:
       Host:
       - shangulin.global.ssl.fastly.net
-- name: '🇫🇷 France, Paris #9 (из 47)'
+- name: '🇫🇷 Франция #9'
   type: vless
   server: transparency.cloud-fr.appcore.org
   port: 34754
@@ -137,7 +137,7 @@ proxies:
     public-key: eMijZKuJlNEciXbhyzdbewk-ot_JLMZVaA42bxKFcBM
     short-id: c9eb0359fac0c345
   network: tcp
-- name: '🇫🇷 France, Paris #10 (из 47)'
+- name: '🇫🇷 Франция #10'
   type: vless
   server: 66.201.4.248
   port: 443
@@ -152,7 +152,7 @@ proxies:
     public-key: L6EU_GCGptVyjp1Q60ZMmRAZVCCx6EVbW-gyv1Zk3zc
     short-id: fad0a8e7
   network: tcp
-- name: '🇫🇷 France, Paris #11 (из 47)'
+- name: '🇫🇷 Франция #11'
   type: vless
   server: speedtest.net
   port: 80
@@ -168,7 +168,7 @@ proxies:
     headers:
       Host:
       - tignaltofan.global.ssl.fastly.net
-- name: '🇫🇷 France, Paris #12 (из 47)'
+- name: '🇫🇷 Франция #12'
   type: vless
   server: 151.101.128.223
   port: 80
@@ -184,7 +184,7 @@ proxies:
     headers:
       Host:
       - tignaltofan.global.ssl.fastly.net
-- name: '🇫🇷 France, Paris #13 (из 47)'
+- name: '🇫🇷 Франция #13'
   type: vless
   server: speedtest.net
   port: 80
@@ -200,7 +200,7 @@ proxies:
     headers:
       Host:
       - tignaltofan.global.ssl.fastly.net
-- name: '🇫🇷 France, Roubaix #14 (из 47)'
+- name: '🇫🇷 Франция #14'
   type: vless
   server: 165.215.250.0
   port: 2087
@@ -219,7 +219,7 @@ proxies:
     headers:
       Host:
       - frws.silorano.ir
-- name: '🇫🇷 France, Roubaix #15 (из 47)'
+- name: '🇫🇷 Франция #15'
   type: vless
   server: 151.101.192.223
   port: 80
@@ -235,7 +235,7 @@ proxies:
     headers:
       Host:
       - InternetAzadRobot07gt745.global.ssl.fastly.net
-- name: '🇫🇷 France, Strasbourg #16 (из 47)'
+- name: '🇫🇷 Франция #16'
   type: vless
   server: down.spectrumproxy.shop
   port: 443
@@ -252,7 +252,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: vless
-- name: '🇩🇪 Germany, Frankfurt am Main #17 (из 47)'
+- name: '🇩🇪 Германия #17'
   type: vless
   server: 84.200.33.81
   port: 2056
@@ -261,7 +261,7 @@ proxies:
   udp: true
   skip-cert-verify: false
   network: tcp
-- name: '🇬🇷 Greece, Thessaloniki #18 (из 47)'
+- name: '🇬🇷 Греция #18'
   type: vless
   server: 94.131.16.12
   port: 443
@@ -276,7 +276,7 @@ proxies:
     public-key: Re4bwcu3tj9zJQlIQDm_kJ1MPvGH5WxUGroE2ZvxeDI
     short-id: abc431
   network: tcp
-- name: '🇭🇺 Hungary, Budapest #19 (из 47)'
+- name: '🇭🇺 Венгрия #19'
   type: vless
   server: 77.74.123.167
   port: 8443
@@ -288,7 +288,7 @@ proxies:
   servername: cdn7-09.vk-cdnvideo.com
   client-fingerprint: chrome
   network: tcp
-- name: '🇭🇺 Hungary, Budapest #20 (из 47)'
+- name: '🇭🇺 Венгрия #20'
   type: vless
   server: 46.229.243.137
   port: 8443
@@ -300,7 +300,7 @@ proxies:
   servername: cdn7-09.vk-cdnvideo.com
   client-fingerprint: chrome
   network: tcp
-- name: '🇭🇺 Hungary, Budapest #21 (из 47)'
+- name: '🇭🇺 Венгрия #21'
   type: vless
   server: 77.74.123.171
   port: 8443
@@ -312,7 +312,7 @@ proxies:
   servername: cdn7-09.vk-cdnvideo.com
   client-fingerprint: chrome
   network: tcp
-- name: '🇱🇻 Latvia, Riga #22 (из 47)'
+- name: '🇱🇻 Латвия #22'
   type: vless
   server: 2.26.88.118
   port: 8443
@@ -328,7 +328,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: max.ru
-- name: '🇹🇼 Taiwan, Taoyuan #23 (из 47)'
+- name: '🇹🇼 Тайвань #23'
   type: vless
   server: tw3.miyazono-kaori.com
   port: 443
@@ -343,7 +343,7 @@ proxies:
     public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
     short-id: 473277e2
   network: tcp
-- name: '🇳🇱 The #24 (из 47)'
+- name: '🇳🇱 Нидерланды #24'
   type: vless
   server: 89.124.69.82
   port: 1310
@@ -356,7 +356,7 @@ proxies:
     path: '%2F%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia--%40v2raydia'
     headers:
       Host: play.google.com
-- name: '🇳🇱 The #25 (из 47)'
+- name: '🇳🇱 Нидерланды #25'
   type: vless
   server: 91.198.77.242
   port: 8443
@@ -369,7 +369,7 @@ proxies:
     path: '%2F'
     headers:
       Host: ap.isowli.ir
-- name: '🇳🇱 The #26 (из 47)'
+- name: '🇳🇱 Нидерланды #26'
   type: vless
   server: food.artmisserver.site
   port: 8443
@@ -382,7 +382,7 @@ proxies:
     path: /
     headers:
       Host: ap.isowli.ir
-- name: '🇹🇷 Turkey, Paşaköy #27 (из 47)'
+- name: '🇹🇷 Турция #27'
   type: vless
   server: 185.181.211.81
   port: 37141
@@ -391,7 +391,7 @@ proxies:
   udp: true
   skip-cert-verify: false
   network: tcp
-- name: '🇬🇧 United #28 (из 47)'
+- name: '🇬🇧 Англия #28'
   type: vless
   server: 31.76.126.141
   port: 2040
@@ -406,7 +406,7 @@ proxies:
     public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
     short-id: 53197c66aef53c44
   network: tcp
-- name: '🇬🇧 United #29 (из 47)'
+- name: '🇬🇧 Англия #29'
   type: vless
   server: auto.datamove.online
   port: 2040
@@ -421,7 +421,7 @@ proxies:
     public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
     short-id: 53197c66aef53c44
   network: tcp
-- name: '🇬🇧 United #30 (из 47)'
+- name: '🇬🇧 Англия #30'
   type: vless
   server: 31.76.87.64
   port: 443
@@ -439,7 +439,7 @@ proxies:
     headers:
       Host:
       - ''
-- name: '🇺🇸 United #31 (из 47)'
+- name: '🇺🇸 США #31'
   type: vless
   server: us.healthy-connected.com
   port: 443
@@ -453,7 +453,7 @@ proxies:
     public-key: ep8sjqX2t_F-tn5SElD9RkuRimExyi9h1MA-F5ESa30
     short-id: 30e570274c0c72cc
   network: tcp
-- name: '🇺🇸 United #32 (из 47)'
+- name: '🇺🇸 США #32'
   type: vless
   server: us.healthy-connected.com
   port: 443
@@ -468,7 +468,7 @@ proxies:
     public-key: ep8sjqX2t_F-tn5SElD9RkuRimExyi9h1MA-F5ESa30
     short-id: 30e570274c0c72cc
   network: tcp
-- name: '🇺🇸 United #33 (из 47)'
+- name: '🇺🇸 США #33'
   type: vless
   server: us.healthy-connected.com
   port: 443
@@ -483,7 +483,7 @@ proxies:
     public-key: ep8sjqX2t_F-tn5SElD9RkuRimExyi9h1MA-F5ESa30
     short-id: 30e570274c0c72cc
   network: tcp
-- name: '🇺🇸 United #34 (из 47)'
+- name: '🇺🇸 США #34'
   type: vless
   server: us.healthy-connected.com
   port: 443
@@ -497,7 +497,7 @@ proxies:
     public-key: ep8sjqX2t_F-tn5SElD9RkuRimExyi9h1MA-F5ESa30
     short-id: 30e570274c0c72cc
   network: tcp
-- name: '🇺🇸 United #35 (из 47)'
+- name: '🇺🇸 США #35'
   type: vless
   server: us.healthy-connected.com
   port: 443
@@ -511,7 +511,7 @@ proxies:
     public-key: ep8sjqX2t_F-tn5SElD9RkuRimExyi9h1MA-F5ESa30
     short-id: 30e570274c0c72cc
   network: tcp
-- name: '🇺🇸 United #36 (из 47)'
+- name: '🇺🇸 США #36'
   type: vless
   server: us.healthy-connected.com
   port: 443
@@ -525,7 +525,7 @@ proxies:
     public-key: ep8sjqX2t_F-tn5SElD9RkuRimExyi9h1MA-F5ESa30
     short-id: 30e570274c0c72cc
   network: tcp
-- name: '🇺🇸 United #37 (из 47)'
+- name: '🇺🇸 США #37'
   type: vless
   server: 47.77.214.201
   port: 10035
@@ -534,7 +534,7 @@ proxies:
   udp: true
   skip-cert-verify: false
   network: tcp
-- name: '🇺🇸 United #38 (из 47)'
+- name: '🇺🇸 США #38'
   type: vless
   server: 47.77.214.201
   port: 10035
@@ -543,7 +543,7 @@ proxies:
   udp: true
   skip-cert-verify: false
   network: tcp
-- name: '🇵🇱 🇸🇪 #39 (из 47)'
+- name: '🇵🇱 Албания #39'
   type: vless
   server: 144.31.171.101
   port: 4443
@@ -554,7 +554,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: ''
-- name: '🇵🇱 🇸🇪 #40 (из 47)'
+- name: '🇵🇱 Албания #40'
   type: vless
   server: 144.31.171.103
   port: 4443
@@ -565,7 +565,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: ''
-- name: '🇵🇱 🇸🇪 #41 (из 47)'
+- name: '🇵🇱 Албания #41'
   type: vless
   server: 144.31.171.105
   port: 4443
@@ -576,7 +576,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: ''
-- name: '🇵🇱 🇸🇪 #42 (из 47)'
+- name: '🇵🇱 Албания #42'
   type: vless
   server: 144.31.171.106
   port: 4443
@@ -587,7 +587,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: ''
-- name: '🇵🇱 🇸🇪 #43 (из 47)'
+- name: '🇵🇱 Албания #43'
   type: vless
   server: 144.31.171.107
   port: 4443
@@ -598,7 +598,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: ''
-- name: '🇵🇱 🇸🇪 #44 (из 47)'
+- name: '🇵🇱 Албания #44'
   type: vless
   server: 144.31.171.98
   port: 4443
@@ -609,7 +609,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: ''
-- name: '🇵🇱 🇸🇪 #45 (из 47)'
+- name: '🇵🇱 Албания #45'
   type: vless
   server: 144.31.171.99
   port: 4443
@@ -620,7 +620,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: ''
-- name: '🇵🇱 🇸🇪 #46 (из 47)'
+- name: '🇵🇱 Албания #46'
   type: vless
   server: bc-pl-1c.ray-balance.space
   port: 4443
@@ -631,7 +631,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: ''
-- name: '🇵🇱 🇸🇪 #47 (из 47)'
+- name: '🇵🇱 Албания #47'
   type: vless
   server: bc-pl-1c.ray-balance.space
   port: 4443
@@ -648,53 +648,53 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - '🇪🇪 Estonia, Tallinn #1 (из 47)'
-  - '🇪🇪 Estonia, Tallinn #2 (из 47)'
-  - '🇫🇮 Finland, Helsinki #3 (из 47)'
-  - '🇫🇮 Finland, Helsinki #4 (из 47)'
-  - '🇫🇮 Finland, Helsinki #5 (из 47)'
-  - '🇫🇷 France, Gravelines #6 (из 47)'
-  - '🇫🇷 France, Gravelines #7 (из 47)'
-  - '🇫🇷 France, Gravelines #8 (из 47)'
-  - '🇫🇷 France, Paris #9 (из 47)'
-  - '🇫🇷 France, Paris #10 (из 47)'
-  - '🇫🇷 France, Paris #11 (из 47)'
-  - '🇫🇷 France, Paris #12 (из 47)'
-  - '🇫🇷 France, Paris #13 (из 47)'
-  - '🇫🇷 France, Roubaix #14 (из 47)'
-  - '🇫🇷 France, Roubaix #15 (из 47)'
-  - '🇫🇷 France, Strasbourg #16 (из 47)'
-  - '🇩🇪 Germany, Frankfurt am Main #17 (из 47)'
-  - '🇬🇷 Greece, Thessaloniki #18 (из 47)'
-  - '🇭🇺 Hungary, Budapest #19 (из 47)'
-  - '🇭🇺 Hungary, Budapest #20 (из 47)'
-  - '🇭🇺 Hungary, Budapest #21 (из 47)'
-  - '🇱🇻 Latvia, Riga #22 (из 47)'
-  - '🇹🇼 Taiwan, Taoyuan #23 (из 47)'
-  - '🇳🇱 The #24 (из 47)'
-  - '🇳🇱 The #25 (из 47)'
-  - '🇳🇱 The #26 (из 47)'
-  - '🇹🇷 Turkey, Paşaköy #27 (из 47)'
-  - '🇬🇧 United #28 (из 47)'
-  - '🇬🇧 United #29 (из 47)'
-  - '🇬🇧 United #30 (из 47)'
-  - '🇺🇸 United #31 (из 47)'
-  - '🇺🇸 United #32 (из 47)'
-  - '🇺🇸 United #33 (из 47)'
-  - '🇺🇸 United #34 (из 47)'
-  - '🇺🇸 United #35 (из 47)'
-  - '🇺🇸 United #36 (из 47)'
-  - '🇺🇸 United #37 (из 47)'
-  - '🇺🇸 United #38 (из 47)'
-  - '🇵🇱 🇸🇪 #39 (из 47)'
-  - '🇵🇱 🇸🇪 #40 (из 47)'
-  - '🇵🇱 🇸🇪 #41 (из 47)'
-  - '🇵🇱 🇸🇪 #42 (из 47)'
-  - '🇵🇱 🇸🇪 #43 (из 47)'
-  - '🇵🇱 🇸🇪 #44 (из 47)'
-  - '🇵🇱 🇸🇪 #45 (из 47)'
-  - '🇵🇱 🇸🇪 #46 (из 47)'
-  - '🇵🇱 🇸🇪 #47 (из 47)'
+  - '🇪🇪 Эстония #1'
+  - '🇪🇪 Эстония #2'
+  - '🇫🇮 Финляндия #3'
+  - '🇫🇮 Финляндия #4'
+  - '🇫🇮 Финляндия #5'
+  - '🇫🇷 Франция #6'
+  - '🇫🇷 Франция #7'
+  - '🇫🇷 Франция #8'
+  - '🇫🇷 Франция #9'
+  - '🇫🇷 Франция #10'
+  - '🇫🇷 Франция #11'
+  - '🇫🇷 Франция #12'
+  - '🇫🇷 Франция #13'
+  - '🇫🇷 Франция #14'
+  - '🇫🇷 Франция #15'
+  - '🇫🇷 Франция #16'
+  - '🇩🇪 Германия #17'
+  - '🇬🇷 Греция #18'
+  - '🇭🇺 Венгрия #19'
+  - '🇭🇺 Венгрия #20'
+  - '🇭🇺 Венгрия #21'
+  - '🇱🇻 Латвия #22'
+  - '🇹🇼 Тайвань #23'
+  - '🇳🇱 Нидерланды #24'
+  - '🇳🇱 Нидерланды #25'
+  - '🇳🇱 Нидерланды #26'
+  - '🇹🇷 Турция #27'
+  - '🇬🇧 Англия #28'
+  - '🇬🇧 Англия #29'
+  - '🇬🇧 Англия #30'
+  - '🇺🇸 США #31'
+  - '🇺🇸 США #32'
+  - '🇺🇸 США #33'
+  - '🇺🇸 США #34'
+  - '🇺🇸 США #35'
+  - '🇺🇸 США #36'
+  - '🇺🇸 США #37'
+  - '🇺🇸 США #38'
+  - '🇵🇱 Албания #39'
+  - '🇵🇱 Албания #40'
+  - '🇵🇱 Албания #41'
+  - '🇵🇱 Албания #42'
+  - '🇵🇱 Албания #43'
+  - '🇵🇱 Албания #44'
+  - '🇵🇱 Албания #45'
+  - '🇵🇱 Албания #46'
+  - '🇵🇱 Албания #47'
 - name: DIRECT
   type: select
   proxies:
