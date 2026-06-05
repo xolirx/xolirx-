@@ -45,7 +45,73 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇫🇷 Франция #1",
+      "tag": "🇧🇪 Бельгия #1",
+      "server": "128.127.180.240",
+      "server_port": 443,
+      "uuid": "2ac88478-f912-4bae-9932-357d44bfdc3b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "brus.redtwist.info",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "A56HUwU2cnLfq5ptcqlf_k-I7Dypz4GTCT--c4KEMQM",
+          "short_id": "4bc36a86dc364cc4"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇿 Чехия #2",
+      "server": "103.119.19.179",
+      "server_port": 8443,
+      "uuid": "a2415a12-3f92-4636-9823-9828d3ceb818",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "vo6Xrwkla8OBS5O6lEinNvHXxW8DxCmb8HGHD86VzkU",
+          "short_id": "0e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 Финляндия #3",
+      "server": "qubes.ubuntuhosting.host",
+      "server_port": 443,
+      "uuid": "9cab10a8-7936-457f-bf1f-b9842439f494",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "qubes.ubuntuhosting.host",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "n_-rh8EC8zmzkuu2AmCnKoh09omlYONdgS_F7CStITk",
+          "short_id": "3fa234ea9feaa048"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇷 Франция #4",
       "server": "146.75.117.91",
       "server_port": 80,
       "uuid": "InternetAzadRobot",
@@ -63,7 +129,25 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 Франция #2",
+      "tag": "🇫🇷 Франция #5",
+      "server": "151.101.128.223",
+      "server_port": 80,
+      "uuid": "96eec36e-2c44-5b09-898e-6f0f0526e57f",
+      "flow": "",
+      "tls": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "http",
+        "path": "%2Flogin",
+        "host": [
+          "shangulin.global.ssl.fastly.net"
+        ]
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇷 Франция #6",
       "server": "151.101.130.133",
       "server_port": 80,
       "uuid": "96eec36e-2c44-5b09-898e-6f0f0526e57f",
@@ -81,10 +165,10 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 Франция #3",
-      "server": "23.235.42.205",
+      "tag": "🇫🇷 Франция #7",
+      "server": "151.101.128.223",
       "server_port": 80,
-      "uuid": "96eec36e-2c44-5b09-898e-6f0f0526e57f",
+      "uuid": "InternetAzadRobot",
       "flow": "",
       "tls": {
         "enabled": false
@@ -99,46 +183,37 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 Франция #4",
-      "server": "168.222.252.42",
-      "server_port": 443,
-      "uuid": "32e32b00-b8ef-430c-b267-d141bc70e866",
+      "tag": "🇫🇷 Франция #8",
+      "server": "tun.axenet.company",
+      "server_port": 8443,
+      "uuid": "e6d74f1f-bce5-43e3-b65a-63bb6d825764",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.ya.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "XIRobh7wGiGvYVfywPRvTEeMbey6h45ZLE6K63laaxo",
-          "short_id": "dcc1"
-        }
+        "server_name": "tun2.lorateam.org",
+        "insecure": false
       },
       "transport": {
         "type": "http",
-        "path": "%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN",
+        "path": "/513sas?",
         "host": [
-          ""
+          "tun2.lorateam.org"
         ]
       }
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 Франция #5",
-      "server": "151.101.128.223",
+      "tag": "🇫🇷 Франция #9",
+      "server": "speedtest.net",
       "server_port": 80,
-      "uuid": "InternetAzadRobot",
+      "uuid": "96eec36e-2c44-5b09-898e-6f0f0526e57f",
       "flow": "",
       "tls": {
         "enabled": false
       },
       "transport": {
         "type": "http",
-        "path": "%2FTignaliSWithYou",
+        "path": "/TignaliSWithYou",
         "host": [
           "tignaltofan.global.ssl.fastly.net"
         ]
@@ -146,7 +221,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 Франция #6",
+      "tag": "🇫🇷 Франция #10",
       "server": "speedtest.net",
       "server_port": 80,
       "uuid": "InternetAzadRobot",
@@ -164,17 +239,17 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 Франция #7",
+      "tag": "🇫🇷 Франция #11",
       "server": "151.101.192.223",
       "server_port": 80,
-      "uuid": "InternetAzadRobot-AliKiller",
+      "uuid": "5cdf99d3-a51b-570e-8245-f87d674dc652",
       "flow": "",
       "tls": {
         "enabled": false
       },
       "transport": {
         "type": "http",
-        "path": "/",
+        "path": "%2F",
         "host": [
           "InternetAzadRobot07gt745.global.ssl.fastly.net"
         ]
@@ -182,7 +257,31 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 Германия #8",
+      "tag": "🇩🇪 Германия #12",
+      "server": "de1.gamelistak.com",
+      "server_port": 443,
+      "uuid": "182aae32-6108-40e8-8fb4-a9068afa0cb6",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "http",
+        "path": "/%40MrNexTV2RAY",
+        "host": [
+          "de1.gamelistak.com"
+        ]
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 Германия #13",
       "server": "de1.gamelistak.com",
       "server_port": 443,
       "uuid": "182aae32-6108-40e8-8fb4-a9068afa0cb6",
@@ -206,69 +305,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 Германия #9",
-      "server": "l1-2.l-itx.info",
-      "server_port": 7443,
-      "uuid": "f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "colorlib.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA",
-          "short_id": ""
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "xyz"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 Германия #10",
-      "server": "de2.niekotin.de",
-      "server_port": 80,
-      "uuid": "12e2b366-6426-4e09-9c6f-9c894262b923",
-      "flow": "",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 Германия #11",
-      "server": "82.165.133.113",
-      "server_port": 80,
-      "uuid": "f9558e6a-0447-48a0-94e9-cd69fc638d73",
-      "flow": "",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "%2Fvless",
-        "headers": {
-          "Host": "de2.niekotin.de"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 Германия #12",
+      "tag": "🇩🇪 Германия #14",
       "server": "vip-srv-for-you.xn--5d3ak5w.com",
       "server_port": 2052,
       "uuid": "3f714544-cb38-49cf-9b5d-e4ddf08e22c4",
@@ -286,14 +323,60 @@
     },
     {
       "type": "vless",
-      "tag": "🇭🇰 Xolirx #13",
-      "server": "hk01.jgpy.help",
-      "server_port": 21002,
-      "uuid": "d44724a9-0c88-4437-9f88-e1f86aa32e25",
+      "tag": "🇩🇪 Германия #15",
+      "server": "panel.zanjirbor.digital",
+      "server_port": 2083,
+      "uuid": "ad8d9411-f61b-4bc1-9a0a-55eb5971279e",
+      "flow": "",
+      "tls": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless",
+        "headers": {
+          "Host": "v.zanjirbor.digital"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 Xolirx #16",
+      "server": "45.152.67.34",
+      "server_port": 47488,
+      "uuid": "2c36bf33-1ec0-45e8-84af-84eeccd56ca5",
+      "flow": "",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇺 Венгрия #17",
+      "server": "46.229.243.71",
+      "server_port": 8443,
+      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn7-09.vk-cdnvideo.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇰🇿 Xolirx #18",
+      "server": "kz-1.illusion-vpn.ru",
+      "server_port": 8443,
+      "uuid": "e6990876-f78f-5f47-b716-fde1cbec10bc",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
+        "server_name": "kz-1.illusion-vpn.ru",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -301,36 +384,36 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "bSOQYFrQsIYbG5k6-n8aykU2CUQAT67jgVBhP89e_xE",
-          "short_id": "cccb9907"
+          "public_key": "vgoHApJUN--t9eI7bCyYBJUO4ZgkZQBzxPzjNc_v314",
+          "short_id": "2e83619c7975b870"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇭🇰 Xolirx #14",
-      "server": "hk01.jgpy.help",
-      "server_port": 21002,
-      "uuid": "d44724a9-0c88-4437-9f88-e1f86aa32e25",
+      "tag": "🇱🇻 Латвия #19",
+      "server": "ru-lv.illusion-vpn.ru",
+      "server_port": 443,
+      "uuid": "bee8df77-2780-5a7b-b005-9da84fcb7aaf",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
+        "server_name": "ru-lv.illusion-vpn.ru",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "bSOQYFrQsIYbG5k6-n8aykU2CUQAT67jgVBhP89e_xE",
-          "short_id": "cccb9907"
+          "public_key": "86DiKd_LyZ_9L4WyaADZsNJH5wnaTGoZyywz0CGFYwg",
+          "short_id": "9ec378e393a94f"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇱🇻 Латвия #15",
+      "tag": "🇱🇻 Латвия #20",
       "server": "2.26.88.118",
       "server_port": 8443,
       "uuid": "785c7771-8d7f-48ca-bbc2-1a22e360d4d0",
@@ -356,52 +439,50 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇬 Сингапур #16",
-      "server": "43.160.201.33",
-      "server_port": 666,
-      "uuid": "8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "43.160.201.33",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/proxy",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 Сингапур #17",
-      "server": "143.198.223.118",
-      "server_port": 53327,
-      "uuid": "acf3950e-c867-4f30-b4bf-0efcb5195af0",
+      "tag": "🇸🇬 Сингапур #21",
+      "server": "82.40.62.134",
+      "server_port": 80,
+      "uuid": "be20cd9a-e72b-46e6-a2a7-8d4c67ad60dc",
       "flow": "",
       "tls": {
         "enabled": false
       },
       "transport": {
         "type": "ws",
-        "path": "%2FFREE%20by%20Tharuwa%20%280767597317%29",
+        "path": "%2Fstream",
         "headers": {
-          "Host": "m.zoom.us"
+          "Host": "panel.dibaux.ir"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇨🇭 Швейцария #18",
-      "server": "l10.l-itx.info",
-      "server_port": 7443,
-      "uuid": "f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4",
+      "tag": "🇸🇬 Сингапур #22",
+      "server": "panel.dibaux.ir",
+      "server_port": 80,
+      "uuid": "be20cd9a-e72b-46e6-a2a7-8d4c67ad60dc",
+      "flow": "",
+      "tls": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "%2Fstream",
+        "headers": {
+          "Host": "panel.dibaux.ir"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 Нидерланды #23",
+      "server": "72.56.18.179",
+      "server_port": 443,
+      "uuid": "a2415a12-3f92-4636-9823-9828d3ceb818",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "colorlib.com",
+        "server_name": "www.ya.ru",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -409,57 +490,80 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA",
-          "short_id": ""
+          "public_key": "8xufuXmVTmxmM9SKIN1P6x3CFstZdl1mfSxr_LfOkDQ",
+          "short_id": "2af15d98"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "xyz"
       }
     },
     {
       "type": "vless",
-      "tag": "🇹🇭 Xolirx #19",
-      "server": "t1.feiyue706.com",
-      "server_port": 36802,
-      "uuid": "efa569c6-c627-39d0-8d4f-6c5d730b5894",
-      "flow": "",
+      "tag": "🇳🇱 Нидерланды #24",
+      "server": "g2.steptofsvo.com",
+      "server_port": 443,
+      "uuid": "4550993c-2191-493a-a612-aaba4a4ec083",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "t1.feiyue706.com",
+        "server_name": "g2.steptofsvo.com",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "randomized"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+          "short_id": "6d6f13013d3e1d0c"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "ljfxz"
       }
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 Англия #20",
-      "server": "146.75.117.91",
-      "server_port": 80,
-      "uuid": "96eec36e-2c44-5b09-898e-6f0f0526e57f",
-      "flow": "",
+      "tag": "🇳🇱 Нидерланды #25",
+      "server": "g3.steptofsvo.com",
+      "server_port": 443,
+      "uuid": "4550993c-2191-493a-a612-aaba4a4ec083",
+      "flow": "xtls-rprx-vision",
       "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "http",
-        "path": "/Tignal",
-        "host": [
-          "tignaltofansv5.global.ssl.fastly.net"
-        ]
+        "enabled": true,
+        "server_name": "g3.steptofsvo.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+          "short_id": "6d6f13013d3e1d0c"
+        }
       }
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 Англия #21",
+      "tag": "🇳🇱 Нидерланды #26",
+      "server": "g7.steptofsvo.com",
+      "server_port": 443,
+      "uuid": "4550993c-2191-493a-a612-aaba4a4ec083",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "g7.steptofsvo.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+          "short_id": "6d6f13013d3e1d0c"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 Англия #27",
       "server": "146.75.117.91",
       "server_port": 80,
       "uuid": "InternetAzadRobot",
@@ -477,36 +581,154 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 Англия #22",
-      "server": "31.76.126.129",
-      "server_port": 2040,
-      "uuid": "17451fec-af94-4715-8c2f-7f6839130d0a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "tradingview.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0",
-          "short_id": "53197c66aef53c44"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 США #23",
-      "server": "198.251.79.150",
-      "server_port": 40561,
-      "uuid": "f6860c67-5613-43f7-b549-221d9d27cb3c",
+      "tag": "🇬🇧 Англия #28",
+      "server": "s643.ccgfw.top",
+      "server_port": 443,
+      "uuid": "1c65bee4-bc54-364c-8988-6a5912fda891",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.icloud.com",
+        "server_name": "u723829u7190s643.ccgfw.top",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 Англия #29",
+      "server": "8.208.22.155",
+      "server_port": 10034,
+      "uuid": "e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2",
+      "flow": "",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 Англия #30",
+      "server": "8.208.22.155",
+      "server_port": 10034,
+      "uuid": "e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2",
+      "flow": "",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 США #31",
+      "server": "s77.okgfwbackxyz.xyz",
+      "server_port": 443,
+      "uuid": "1c65bee4-bc54-364c-8988-6a5912fda891",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "u723829us77.okgfwbackxyz.xyz",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 США #32",
+      "server": "s860.okgfwbackxyz.xyz",
+      "server_port": 443,
+      "uuid": "1c65bee4-bc54-364c-8988-6a5912fda891",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "u723829us860.okgfwbackxyz.xyz",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 США #33",
+      "server": "47.77.214.201",
+      "server_port": 10035,
+      "uuid": "e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2",
+      "flow": "",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇿 Чехия #34",
+      "server": "tun2.axenet.company",
+      "server_port": 2087,
+      "uuid": "e6d74f1f-bce5-43e3-b65a-63bb6d825764",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "tun2.lorateam.org",
+        "insecure": false
+      },
+      "transport": {
+        "type": "http",
+        "path": "/513sas?",
+        "host": [
+          "tun2.lorateam.org"
+        ]
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 Англия #35",
+      "server": "g4.steptofsvo.com",
+      "server_port": 443,
+      "uuid": "4550993c-2191-493a-a612-aaba4a4ec083",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "g4.steptofsvo.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+          "short_id": "6d6f13013d3e1d0c"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 Англия #36",
+      "server": "g5.steptofsvo.com",
+      "server_port": 443,
+      "uuid": "4550993c-2191-493a-a612-aaba4a4ec083",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "g5.steptofsvo.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+          "short_id": "6d6f13013d3e1d0c"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 Польша #37",
+      "server": "pl-1.illusion-vpn.ru",
+      "server_port": 443,
+      "uuid": "e19966ec-7628-5252-89d2-43b5d4e51264",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl-1.illusion-vpn.ru",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -514,51 +736,9 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "Cr0bd4W4tCkntHQyZReu9uoRHgMnNJLdo5PRvsl0kAY",
-          "short_id": "62b6b234"
+          "public_key": "ExcIQDzOvrpzbDgbLufmt33F-ObNGHXx6rjEvzn76jI",
+          "short_id": "2e83619c7975b870"
         }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 Канада #24",
-      "server": "78.17.103.57.blanesik.space",
-      "server_port": 443,
-      "uuid": "ab268dc7-510f-4fb9-ace4-b7305a59c7bb",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "78.17.103.57.blanesik.space",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "/sequre/grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 Канада #25",
-      "server": "78.17.103.57.blanesik.space",
-      "server_port": 443,
-      "uuid": "ab268dc7-510f-4fb9-ace4-b7305a59c7bb",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "78.17.103.57.blanesik.space",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "%2Fsequre%2Fgrpc"
       }
     },
     {
@@ -573,31 +753,43 @@
       "type": "selector",
       "tag": "PROXY",
       "outbounds": [
-        "🇫🇷 Франция #1",
-        "🇫🇷 Франция #2",
-        "🇫🇷 Франция #3",
+        "🇧🇪 Бельгия #1",
+        "🇨🇿 Чехия #2",
+        "🇫🇮 Финляндия #3",
         "🇫🇷 Франция #4",
         "🇫🇷 Франция #5",
         "🇫🇷 Франция #6",
         "🇫🇷 Франция #7",
-        "🇩🇪 Германия #8",
-        "🇩🇪 Германия #9",
-        "🇩🇪 Германия #10",
-        "🇩🇪 Германия #11",
+        "🇫🇷 Франция #8",
+        "🇫🇷 Франция #9",
+        "🇫🇷 Франция #10",
+        "🇫🇷 Франция #11",
         "🇩🇪 Германия #12",
-        "🇭🇰 Xolirx #13",
-        "🇭🇰 Xolirx #14",
-        "🇱🇻 Латвия #15",
-        "🇸🇬 Сингапур #16",
-        "🇸🇬 Сингапур #17",
-        "🇨🇭 Швейцария #18",
-        "🇹🇭 Xolirx #19",
-        "🇬🇧 Англия #20",
-        "🇬🇧 Англия #21",
-        "🇬🇧 Англия #22",
-        "🇺🇸 США #23",
-        "🇨🇦 Канада #24",
-        "🇨🇦 Канада #25"
+        "🇩🇪 Германия #13",
+        "🇩🇪 Германия #14",
+        "🇩🇪 Германия #15",
+        "🇭🇰 Xolirx #16",
+        "🇭🇺 Венгрия #17",
+        "🇰🇿 Xolirx #18",
+        "🇱🇻 Латвия #19",
+        "🇱🇻 Латвия #20",
+        "🇸🇬 Сингапур #21",
+        "🇸🇬 Сингапур #22",
+        "🇳🇱 Нидерланды #23",
+        "🇳🇱 Нидерланды #24",
+        "🇳🇱 Нидерланды #25",
+        "🇳🇱 Нидерланды #26",
+        "🇬🇧 Англия #27",
+        "🇬🇧 Англия #28",
+        "🇬🇧 Англия #29",
+        "🇬🇧 Англия #30",
+        "🇺🇸 США #31",
+        "🇺🇸 США #32",
+        "🇺🇸 США #33",
+        "🇨🇿 Чехия #34",
+        "🇬🇧 Англия #35",
+        "🇬🇧 Англия #36",
+        "🇵🇱 Польша #37"
       ]
     }
   ],
