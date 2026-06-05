@@ -45,41 +45,7 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇫🇮 Финляндия #1",
-      "server": "5.144.179.56",
-      "server_port": 45466,
-      "uuid": "6a8233fe-6fc0-4dd8-aab2-d4063c16089c",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 Финляндия #2",
-      "server": "5.144.179.56",
-      "server_port": 45466,
-      "uuid": "6a8233fe-6fc0-4dd8-aab2-d4063c16089c",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇷 Франция #3",
+      "tag": "🇫🇷 Франция #1",
       "server": "146.75.117.91",
       "server_port": 80,
       "uuid": "InternetAzadRobot",
@@ -97,7 +63,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 Франция #4",
+      "tag": "🇫🇷 Франция #2",
       "server": "151.101.130.133",
       "server_port": 80,
       "uuid": "96eec36e-2c44-5b09-898e-6f0f0526e57f",
@@ -115,7 +81,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 Франция #5",
+      "tag": "🇫🇷 Франция #3",
       "server": "23.235.42.205",
       "server_port": 80,
       "uuid": "96eec36e-2c44-5b09-898e-6f0f0526e57f",
@@ -133,7 +99,36 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 Франция #6",
+      "tag": "🇫🇷 Франция #4",
+      "server": "168.222.252.42",
+      "server_port": 443,
+      "uuid": "32e32b00-b8ef-430c-b267-d141bc70e866",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ya.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "XIRobh7wGiGvYVfywPRvTEeMbey6h45ZLE6K63laaxo",
+          "short_id": "dcc1"
+        }
+      },
+      "transport": {
+        "type": "http",
+        "path": "%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN",
+        "host": [
+          ""
+        ]
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇷 Франция #5",
       "server": "151.101.128.223",
       "server_port": 80,
       "uuid": "InternetAzadRobot",
@@ -143,45 +138,7 @@
       },
       "transport": {
         "type": "http",
-        "path": "%2Flogin",
-        "host": [
-          "shangulin.global.ssl.fastly.net"
-        ]
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇷 Франция #7",
-      "server": "tun2.axenet.company",
-      "server_port": 8443,
-      "uuid": "e6d74f1f-bce5-43e3-b65a-63bb6d825764",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "tun2.lorateam.org",
-        "insecure": false
-      },
-      "transport": {
-        "type": "http",
-        "path": "/513sas?",
-        "host": [
-          "tun2.lorateam.org"
-        ]
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇷 Франция #8",
-      "server": "speedtest.net",
-      "server_port": 80,
-      "uuid": "96eec36e-2c44-5b09-898e-6f0f0526e57f",
-      "flow": "",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "http",
-        "path": "/TignaliSWithYou",
+        "path": "%2FTignaliSWithYou",
         "host": [
           "tignaltofan.global.ssl.fastly.net"
         ]
@@ -189,7 +146,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 Франция #9",
+      "tag": "🇫🇷 Франция #6",
       "server": "speedtest.net",
       "server_port": 80,
       "uuid": "InternetAzadRobot",
@@ -207,7 +164,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 Франция #10",
+      "tag": "🇫🇷 Франция #7",
       "server": "151.101.192.223",
       "server_port": 80,
       "uuid": "InternetAzadRobot-AliKiller",
@@ -225,14 +182,14 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 Германия #11",
-      "server": "151.101.71.220",
+      "tag": "🇩🇪 Германия #8",
+      "server": "de1.gamelistak.com",
       "server_port": 443,
-      "uuid": "c2d7ef90-1d72-4c10-a694-fac554d17829",
+      "uuid": "182aae32-6108-40e8-8fb4-a9068afa0cb6",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.fastly.com",
+        "server_name": "",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -241,33 +198,77 @@
       },
       "transport": {
         "type": "http",
-        "path": "%2F",
+        "path": "/@MrNexTV2RAY",
         "host": [
-          "ov1.global.ssl.fastly.net"
+          "de1.gamelistak.com"
         ]
       }
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 Германия #12",
-      "server": "blit11.hamrahcore.ir",
-      "server_port": 719,
-      "uuid": "1d2c102a-486f-4d2d-8b87-f40d307200e5",
+      "tag": "🇩🇪 Германия #9",
+      "server": "l1-2.l-itx.info",
+      "server_port": 7443,
+      "uuid": "f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "colorlib.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA",
+          "short_id": ""
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "xyz"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 Германия #10",
+      "server": "de2.niekotin.de",
+      "server_port": 80,
+      "uuid": "12e2b366-6426-4e09-9c6f-9c894262b923",
       "flow": "",
       "tls": {
         "enabled": false
       },
       "transport": {
         "type": "ws",
-        "path": "%2Fapi%2Fv2%2Fxtrnwqjbkr%3Fed%3D2560",
+        "path": "/vless",
         "headers": {
-          "Host": "play.google.com"
+          "Host": ""
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 Германия #13",
+      "tag": "🇩🇪 Германия #11",
+      "server": "82.165.133.113",
+      "server_port": 80,
+      "uuid": "f9558e6a-0447-48a0-94e9-cd69fc638d73",
+      "flow": "",
+      "tls": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "%2Fvless",
+        "headers": {
+          "Host": "de2.niekotin.de"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 Германия #12",
       "server": "vip-srv-for-you.xn--5d3ak5w.com",
       "server_port": 2052,
       "uuid": "3f714544-cb38-49cf-9b5d-e4ddf08e22c4",
@@ -285,47 +286,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 Германия #14",
-      "server": "de7.niekotin.de",
-      "server_port": 80,
-      "uuid": "64297ec6-f701-49a7-8337-31af0561debc",
-      "flow": "",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "%2Fvless",
-        "headers": {
-          "Host": "de7.niekotin.de"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 Германия #15",
-      "server": "backend.xwhiteness.site",
-      "server_port": 443,
-      "uuid": "73a27a6d-a111-4576-a6b3-e8594aeac2f2",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "backend.xwhiteness.site",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "gifIrcPX_n54pgouOfegoOXfTtQTE3DUHjjrVqF0qGY",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 Xolirx #16",
+      "tag": "🇭🇰 Xolirx #13",
       "server": "hk01.jgpy.help",
       "server_port": 21002,
       "uuid": "d44724a9-0c88-4437-9f88-e1f86aa32e25",
@@ -347,20 +308,29 @@
     },
     {
       "type": "vless",
-      "tag": "🇭🇺 Венгрия #17",
-      "server": "162.249.126.76",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "flow": "",
+      "tag": "🇭🇰 Xolirx #14",
+      "server": "hk01.jgpy.help",
+      "server_port": 21002,
+      "uuid": "d44724a9-0c88-4437-9f88-e1f86aa32e25",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdn7-09.vk-cdnvideo.com",
-        "insecure": false
+        "server_name": "apple.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "bSOQYFrQsIYbG5k6-n8aykU2CUQAT67jgVBhP89e_xE",
+          "short_id": "cccb9907"
+        }
       }
     },
     {
       "type": "vless",
-      "tag": "🇱🇻 Латвия #18",
+      "tag": "🇱🇻 Латвия #15",
       "server": "2.26.88.118",
       "server_port": 8443,
       "uuid": "785c7771-8d7f-48ca-bbc2-1a22e360d4d0",
@@ -386,87 +356,92 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 Швеция #19",
-      "server": "sw.musicperec.ru",
-      "server_port": 443,
-      "uuid": "31216f81-3139-0021-bac4-646680314264",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇸🇬 Сингапур #16",
+      "server": "43.160.201.33",
+      "server_port": 666,
+      "uuid": "8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.amd.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4",
-          "short_id": "6a2b5c9d"
+        "server_name": "43.160.201.33",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/proxy",
+        "headers": {
+          "Host": ""
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇨🇭 Швейцария #20",
-      "server": "amir_carter_18_69745.hosted-in.irandns.space",
-      "server_port": 2052,
-      "uuid": "eefd345b-3f64-43af-8096-74f1c7269cfb",
+      "tag": "🇸🇬 Сингапур #17",
+      "server": "143.198.223.118",
+      "server_port": 53327,
+      "uuid": "acf3950e-c867-4f30-b4bf-0efcb5195af0",
       "flow": "",
       "tls": {
         "enabled": false
       },
       "transport": {
-        "type": "http",
-        "path": "/phpMyAdmin?q=一位處女在孫先生的農場工作。",
-        "host": [
-          "a0fee5ff9b8a2c64.ch3.node.tnw.of.to"
-        ]
+        "type": "ws",
+        "path": "%2FFREE%20by%20Tharuwa%20%280767597317%29",
+        "headers": {
+          "Host": "m.zoom.us"
+        }
       }
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 Нидерланды #21",
-      "server": "vpn-nd.solid-dev1.online",
-      "server_port": 11111,
-      "uuid": "f68cd655-06d7-471f-86e3-f5a083230c8b",
+      "tag": "🇨🇭 Швейцария #18",
+      "server": "l10.l-itx.info",
+      "server_port": 7443,
+      "uuid": "f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.gstatic.com",
+        "server_name": "colorlib.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA",
+          "short_id": ""
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "xyz"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇭 Xolirx #19",
+      "server": "t1.feiyue706.com",
+      "server_port": 36802,
+      "uuid": "efa569c6-c627-39d0-8d4f-6c5d730b5894",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "t1.feiyue706.com",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "83tCVVew8UY4iPLTSSDfznL0iU7oJAuKb0wUeZUPk0E",
-          "short_id": "5ed0de1fef031a"
         }
       },
       "transport": {
-        "type": "http",
-        "path": "/solid",
-        "host": [
-          ""
-        ]
+        "type": "grpc",
+        "service_name": "ljfxz"
       }
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 Турция #22",
-      "server": "static.noxt.ir",
-      "server_port": 443,
-      "uuid": "8e728393-f8f7-44cc-9e1e-573f37d62fb6",
-      "flow": "",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 Англия #23",
+      "tag": "🇬🇧 Англия #20",
       "server": "146.75.117.91",
       "server_port": 80,
       "uuid": "96eec36e-2c44-5b09-898e-6f0f0526e57f",
@@ -484,7 +459,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 Англия #24",
+      "tag": "🇬🇧 Англия #21",
       "server": "146.75.117.91",
       "server_port": 80,
       "uuid": "InternetAzadRobot",
@@ -502,8 +477,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 Англия #25",
-      "server": "31.76.126.141",
+      "tag": "🇬🇧 Англия #22",
+      "server": "31.76.126.129",
       "server_port": 2040,
       "uuid": "17451fec-af94-4715-8c2f-7f6839130d0a",
       "flow": "",
@@ -524,73 +499,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 Англия #26",
-      "server": "31.77.56.53",
-      "server_port": 443,
-      "uuid": "73a27a6d-a111-4576-a6b3-e8594aeac2f2",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "front.xwhiteness.site",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "HSxmRrAGkb_RPkm7rLyqr9tVCGzd9thesrdcgENYShA",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 Англия #27",
-      "server": "31.77.56.53",
-      "server_port": 443,
-      "uuid": "73a27a6d-a111-4576-a6b3-e8594aeac2f2",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "front.xwhiteness.site",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "HSxmRrAGkb_RPkm7rLyqr9tVCGzd9thesrdcgENYShA",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 Англия #28",
-      "server": "login.sempai.site",
-      "server_port": 443,
-      "uuid": "73a27a6d-a111-4576-a6b3-e8594aeac2f2",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "front.xwhiteness.site",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "HSxmRrAGkb_RPkm7rLyqr9tVCGzd9thesrdcgENYShA",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 США #29",
+      "tag": "🇺🇸 США #23",
       "server": "198.251.79.150",
       "server_port": 40561,
       "uuid": "f6860c67-5613-43f7-b549-221d9d27cb3c",
@@ -612,20 +521,44 @@
     },
     {
       "type": "vless",
-      "tag": "🇵🇱 Польша #30",
-      "server": "panel.dibaux.ir",
-      "server_port": 80,
-      "uuid": "be20cd9a-e72b-46e6-a2a7-8d4c67ad60dc",
+      "tag": "🇨🇦 Канада #24",
+      "server": "78.17.103.57.blanesik.space",
+      "server_port": 443,
+      "uuid": "ab268dc7-510f-4fb9-ace4-b7305a59c7bb",
       "flow": "",
       "tls": {
-        "enabled": false
+        "enabled": true,
+        "server_name": "78.17.103.57.blanesik.space",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
-        "type": "ws",
-        "path": "%2Fstream",
-        "headers": {
-          "Host": "panel.dibaux.ir"
+        "type": "grpc",
+        "service_name": "/sequre/grpc"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 Канада #25",
+      "server": "78.17.103.57.blanesik.space",
+      "server_port": 443,
+      "uuid": "ab268dc7-510f-4fb9-ace4-b7305a59c7bb",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "78.17.103.57.blanesik.space",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "%2Fsequre%2Fgrpc"
       }
     },
     {
@@ -640,36 +573,31 @@
       "type": "selector",
       "tag": "PROXY",
       "outbounds": [
-        "🇫🇮 Финляндия #1",
-        "🇫🇮 Финляндия #2",
+        "🇫🇷 Франция #1",
+        "🇫🇷 Франция #2",
         "🇫🇷 Франция #3",
         "🇫🇷 Франция #4",
         "🇫🇷 Франция #5",
         "🇫🇷 Франция #6",
         "🇫🇷 Франция #7",
-        "🇫🇷 Франция #8",
-        "🇫🇷 Франция #9",
-        "🇫🇷 Франция #10",
+        "🇩🇪 Германия #8",
+        "🇩🇪 Германия #9",
+        "🇩🇪 Германия #10",
         "🇩🇪 Германия #11",
         "🇩🇪 Германия #12",
-        "🇩🇪 Германия #13",
-        "🇩🇪 Германия #14",
-        "🇩🇪 Германия #15",
-        "🇭🇰 Xolirx #16",
-        "🇭🇺 Венгрия #17",
-        "🇱🇻 Латвия #18",
-        "🇸🇪 Швеция #19",
-        "🇨🇭 Швейцария #20",
-        "🇳🇱 Нидерланды #21",
-        "🇹🇷 Турция #22",
-        "🇬🇧 Англия #23",
-        "🇬🇧 Англия #24",
-        "🇬🇧 Англия #25",
-        "🇬🇧 Англия #26",
-        "🇬🇧 Англия #27",
-        "🇬🇧 Англия #28",
-        "🇺🇸 США #29",
-        "🇵🇱 Польша #30"
+        "🇭🇰 Xolirx #13",
+        "🇭🇰 Xolirx #14",
+        "🇱🇻 Латвия #15",
+        "🇸🇬 Сингапур #16",
+        "🇸🇬 Сингапур #17",
+        "🇨🇭 Швейцария #18",
+        "🇹🇭 Xolirx #19",
+        "🇬🇧 Англия #20",
+        "🇬🇧 Англия #21",
+        "🇬🇧 Англия #22",
+        "🇺🇸 США #23",
+        "🇨🇦 Канада #24",
+        "🇨🇦 Канада #25"
       ]
     }
   ],
