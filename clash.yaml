@@ -5,52 +5,7 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- name: '🇧🇪 Бельгия #1'
-  type: vless
-  server: 128.127.180.240
-  port: 443
-  uuid: 2ac88478-f912-4bae-9932-357d44bfdc3b
-  flow: xtls-rprx-vision
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: brus.redtwist.info
-  client-fingerprint: qq
-  reality-opts:
-    public-key: A56HUwU2cnLfq5ptcqlf_k-I7Dypz4GTCT--c4KEMQM
-    short-id: 4bc36a86dc364cc4
-  network: tcp
-- name: '🇨🇿 Чехия #2'
-  type: vless
-  server: 103.119.19.179
-  port: 8443
-  uuid: a2415a12-3f92-4636-9823-9828d3ceb818
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: www.google.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: vo6Xrwkla8OBS5O6lEinNvHXxW8DxCmb8HGHD86VzkU
-    short-id: 0e
-  network: tcp
-- name: '🇫🇮 Финляндия #3'
-  type: vless
-  server: qubes.ubuntuhosting.host
-  port: 443
-  uuid: 9cab10a8-7936-457f-bf1f-b9842439f494
-  flow: xtls-rprx-vision
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: qubes.ubuntuhosting.host
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: n_-rh8EC8zmzkuu2AmCnKoh09omlYONdgS_F7CStITk
-    short-id: 3fa234ea9feaa048
-  network: tcp
-- name: '🇫🇷 Франция #4'
+- name: '🇫🇷 Франция #1'
   type: vless
   server: 146.75.117.91
   port: 80
@@ -66,7 +21,7 @@ proxies:
     headers:
       Host:
       - tignaltofansv4.global.ssl.fastly.net
-- name: '🇫🇷 Франция #5'
+- name: '🇫🇷 Франция #2'
   type: vless
   server: 151.101.128.223
   port: 80
@@ -82,7 +37,7 @@ proxies:
     headers:
       Host:
       - shangulin.global.ssl.fastly.net
-- name: '🇫🇷 Франция #6'
+- name: '🇫🇷 Франция #3'
   type: vless
   server: 151.101.130.133
   port: 80
@@ -98,7 +53,7 @@ proxies:
     headers:
       Host:
       - shangulin.global.ssl.fastly.net
-- name: '🇫🇷 Франция #7'
+- name: '🇫🇷 Франция #4'
   type: vless
   server: 151.101.128.223
   port: 80
@@ -114,25 +69,29 @@ proxies:
     headers:
       Host:
       - shangulin.global.ssl.fastly.net
-- name: '🇫🇷 Франция #8'
+- name: '🇫🇷 Франция #5'
   type: vless
-  server: tun.axenet.company
-  port: 8443
-  uuid: e6d74f1f-bce5-43e3-b65a-63bb6d825764
+  server: 168.222.252.42
+  port: 443
+  uuid: 32e32b00-b8ef-430c-b267-d141bc70e866
   flow: ''
   udp: true
   skip-cert-verify: false
   tls: true
-  servername: tun2.lorateam.org
+  servername: www.ya.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: XIRobh7wGiGvYVfywPRvTEeMbey6h45ZLE6K63laaxo
+    short-id: dcc1
   network: http
   http-opts:
     method: GET
     path:
-    - /513sas?
+    - '%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN%2FBegoo_VPN'
     headers:
       Host:
-      - tun2.lorateam.org
-- name: '🇫🇷 Франция #9'
+      - ''
+- name: '🇫🇷 Франция #6'
   type: vless
   server: speedtest.net
   port: 80
@@ -148,7 +107,39 @@ proxies:
     headers:
       Host:
       - tignaltofan.global.ssl.fastly.net
-- name: '🇫🇷 Франция #10'
+- name: '🇫🇷 Франция #7'
+  type: vless
+  server: 151.101.128.223
+  port: 80
+  uuid: InternetAzadRobot
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - '%2FTignaliSWithYou'
+    headers:
+      Host:
+      - tignaltofan.global.ssl.fastly.net
+- name: '🇫🇷 Франция #8'
+  type: vless
+  server: 199.232.57.91
+  port: 80
+  uuid: InternetAzadRobot
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - '%2FTignaliSWithYou'
+    headers:
+      Host:
+      - tignaltofan.global.ssl.fastly.net
+- name: '🇫🇷 Франция #9'
   type: vless
   server: speedtest.net
   port: 80
@@ -164,7 +155,7 @@ proxies:
     headers:
       Host:
       - tignaltofan.global.ssl.fastly.net
-- name: '🇫🇷 Франция #11'
+- name: '🇫🇷 Франция #10'
   type: vless
   server: 151.101.192.223
   port: 80
@@ -180,43 +171,36 @@ proxies:
     headers:
       Host:
       - InternetAzadRobot07gt745.global.ssl.fastly.net
+- name: '🇫🇷 Франция #11'
+  type: vless
+  server: 151.101.192.223
+  port: 80
+  uuid: InternetAzadRobot-AliKiller
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - '%2F'
+    headers:
+      Host:
+      - InternetAzadRobot07gt745.global.ssl.fastly.net
 - name: '🇩🇪 Германия #12'
   type: vless
-  server: de1.gamelistak.com
-  port: 443
-  uuid: 182aae32-6108-40e8-8fb4-a9068afa0cb6
+  server: de2.niekotin.de
+  port: 80
+  uuid: f9558e6a-0447-48a0-94e9-cd69fc638d73
   flow: ''
   udp: true
   skip-cert-verify: false
-  tls: true
-  client-fingerprint: chrome
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /%40MrNexTV2RAY
+  network: ws
+  ws-opts:
+    path: /vless
     headers:
-      Host:
-      - de1.gamelistak.com
+      Host: de2.niekotin.de
 - name: '🇩🇪 Германия #13'
-  type: vless
-  server: de1.gamelistak.com
-  port: 443
-  uuid: 182aae32-6108-40e8-8fb4-a9068afa0cb6
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  client-fingerprint: chrome
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /@MrNexTV2RAY
-    headers:
-      Host:
-      - de1.gamelistak.com
-- name: '🇩🇪 Германия #14'
   type: vless
   server: vip-srv-for-you.xn--5d3ak5w.com
   port: 2052
@@ -232,20 +216,47 @@ proxies:
     headers:
       Host:
       - crj0p2x3yug5d5lv13en.1x.up.xn--1tq578b.com
-- name: '🇩🇪 Германия #15'
+- name: '🇩🇪 Германия #14'
   type: vless
-  server: panel.zanjirbor.digital
-  port: 2083
-  uuid: ad8d9411-f61b-4bc1-9a0a-55eb5971279e
+  server: de7.niekotin.de
+  port: 80
+  uuid: 64297ec6-f701-49a7-8337-31af0561debc
   flow: ''
   udp: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vless
+    path: '%2Fvless'
     headers:
-      Host: v.zanjirbor.digital
-- name: '🇭🇰 Xolirx #16'
+      Host: de7.niekotin.de
+- name: '🇩🇪 Германия #15'
+  type: vless
+  server: de7.niekotin.de
+  port: 80
+  uuid: 64297ec6-f701-49a7-8337-31af0561debc
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: '%2Fvless'
+    headers:
+      Host: ''
+- name: '🇩🇪 Германия #16'
+  type: vless
+  server: 78.17.103.57.blanesik.space
+  port: 443
+  uuid: ab268dc7-510f-4fb9-ace4-b7305a59c7bb
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: 78.17.103.57.blanesik.space
+  client-fingerprint: safari
+  network: grpc
+  grpc-opts:
+    grpc-service-name: '%2Fsequre%2Fgrpc'
+- name: '🇭🇰 Xolirx #17'
   type: vless
   server: 45.152.67.34
   port: 47488
@@ -254,9 +265,20 @@ proxies:
   udp: true
   skip-cert-verify: false
   network: tcp
-- name: '🇭🇺 Венгрия #17'
+- name: '🇭🇺 Венгрия #18'
   type: vless
-  server: 46.229.243.71
+  server: 162.249.126.73
+  port: 8443
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: cdn7-09.vk-cdnvideo.com
+  network: tcp
+- name: '🇭🇺 Венгрия #19'
+  type: vless
+  server: 46.229.243.74
   port: 8443
   uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
   flow: ''
@@ -266,37 +288,29 @@ proxies:
   servername: cdn7-09.vk-cdnvideo.com
   client-fingerprint: chrome
   network: tcp
-- name: '🇰🇿 Xolirx #18'
+- name: '🇭🇺 Венгрия #20'
   type: vless
-  server: kz-1.illusion-vpn.ru
+  server: cdn7-09.vk-cdnvideo.com
   port: 8443
-  uuid: e6990876-f78f-5f47-b716-fde1cbec10bc
-  flow: xtls-rprx-vision
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  flow: ''
   udp: true
   skip-cert-verify: false
   tls: true
-  servername: kz-1.illusion-vpn.ru
   client-fingerprint: chrome
-  reality-opts:
-    public-key: vgoHApJUN--t9eI7bCyYBJUO4ZgkZQBzxPzjNc_v314
-    short-id: 2e83619c7975b870
   network: tcp
-- name: '🇱🇻 Латвия #19'
+- name: '🇭🇺 Венгрия #21'
   type: vless
-  server: ru-lv.illusion-vpn.ru
-  port: 443
-  uuid: bee8df77-2780-5a7b-b005-9da84fcb7aaf
-  flow: xtls-rprx-vision
+  server: cdn7-09.vk-cdnvideo.com
+  port: 8443
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  flow: ''
   udp: true
   skip-cert-verify: false
   tls: true
-  servername: ru-lv.illusion-vpn.ru
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: 86DiKd_LyZ_9L4WyaADZsNJH5wnaTGoZyywz0CGFYwg
-    short-id: 9ec378e393a94f
+  servername: cdn7-09.vk-cdnvideo.com
   network: tcp
-- name: '🇱🇻 Латвия #20'
+- name: '🇱🇻 Латвия #22'
   type: vless
   server: 2.26.88.118
   port: 8443
@@ -312,24 +326,26 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: max.ru
-- name: '🇸🇬 Сингапур #21'
+- name: '🇷🇴 Румыния #23'
   type: vless
-  server: 82.40.62.134
-  port: 80
-  uuid: be20cd9a-e72b-46e6-a2a7-8d4c67ad60dc
+  server: 151.242.191.161
+  port: 443
+  uuid: 301d514e-4aa0-47b0-ba44-a0cb891cd52f
   flow: ''
   udp: true
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: '%2Fstream'
-    headers:
-      Host: panel.dibaux.ir
-- name: '🇸🇬 Сингапур #22'
+  tls: true
+  servername: www.samsung.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: OZVjfQBboTDTBw0baMFqzVPsVUI4FNQmspTEb0b0zW4
+    short-id: a1b2c3d4
+  network: tcp
+- name: '🇸🇬 Сингапур #24'
   type: vless
   server: panel.dibaux.ir
   port: 80
-  uuid: be20cd9a-e72b-46e6-a2a7-8d4c67ad60dc
+  uuid: 1a135182-37b9-4b40-bb1b-34379d697ccb
   flow: ''
   udp: true
   skip-cert-verify: false
@@ -338,7 +354,50 @@ proxies:
     path: '%2Fstream'
     headers:
       Host: panel.dibaux.ir
-- name: '🇳🇱 Нидерланды #23'
+- name: '🇸🇬 Сингапур #25'
+  type: vless
+  server: 43.160.201.33
+  port: 666
+  uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
+  flow: ''
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: 43.160.201.33
+  network: ws
+  ws-opts:
+    path: '%2Fproxy'
+    headers:
+      Host: ''
+- name: '🇸🇬 Сингапур #26'
+  type: vless
+  server: 143.198.223.118
+  port: 53327
+  uuid: acf3950e-c867-4f30-b4bf-0efcb5195af0
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: '%2FFREE%20by%20Tharuwa%20%280767597317%29'
+    headers:
+      Host: m.zoom.us
+- name: '🇳🇱 Нидерланды #27'
+  type: vless
+  server: 72.56.18.179
+  port: 443
+  uuid: 69a2af58-d74a-44ca-864a-e09b493f4274
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: www.ya.ru
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: 8xufuXmVTmxmM9SKIN1P6x3CFstZdl1mfSxr_LfOkDQ
+    short-id: 2af15d98
+  network: tcp
+- name: '🇳🇱 Нидерланды #28'
   type: vless
   server: 72.56.18.179
   port: 443
@@ -353,22 +412,7 @@ proxies:
     public-key: 8xufuXmVTmxmM9SKIN1P6x3CFstZdl1mfSxr_LfOkDQ
     short-id: 2af15d98
   network: tcp
-- name: '🇳🇱 Нидерланды #24'
-  type: vless
-  server: g2.steptofsvo.com
-  port: 443
-  uuid: 4550993c-2191-493a-a612-aaba4a4ec083
-  flow: xtls-rprx-vision
-  udp: true
-  skip-cert-verify: false
-  tls: true
-  servername: g2.steptofsvo.com
-  client-fingerprint: randomized
-  reality-opts:
-    public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
-    short-id: 6d6f13013d3e1d0c
-  network: tcp
-- name: '🇳🇱 Нидерланды #25'
+- name: '🇳🇱 Нидерланды #29'
   type: vless
   server: g3.steptofsvo.com
   port: 443
@@ -383,22 +427,69 @@ proxies:
     public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
     short-id: 6d6f13013d3e1d0c
   network: tcp
-- name: '🇳🇱 Нидерланды #26'
+- name: '🇳🇱 Нидерланды #30'
   type: vless
-  server: g7.steptofsvo.com
+  server: g2.steptofsvo.com
   port: 443
   uuid: 4550993c-2191-493a-a612-aaba4a4ec083
   flow: xtls-rprx-vision
   udp: true
   skip-cert-verify: false
   tls: true
-  servername: g7.steptofsvo.com
+  servername: g2.steptofsvo.com
   client-fingerprint: randomized
   reality-opts:
     public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
     short-id: 6d6f13013d3e1d0c
   network: tcp
-- name: '🇬🇧 Англия #27'
+- name: '🇳🇱 Нидерланды #31'
+  type: vless
+  server: vpn-nd.solid-dev1.online
+  port: 11111
+  uuid: f68cd655-06d7-471f-86e3-f5a083230c8b
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: www.gstatic.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 83tCVVew8UY4iPLTSSDfznL0iU7oJAuKb0wUeZUPk0E
+    short-id: 5ed0de1fef031a
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /solid
+    headers:
+      Host:
+      - ''
+- name: '🇹🇷 Турция #32'
+  type: vless
+  server: 185.181.211.81
+  port: 37141
+  uuid: 71310f0a-1c4f-492d-8dec-fd755639d08a
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  network: tcp
+- name: '🇬🇧 Англия #33'
+  type: vless
+  server: 146.75.117.91
+  port: 80
+  uuid: 96eec36e-2c44-5b09-898e-6f0f0526e57f
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - '%2FTignal'
+    headers:
+      Host:
+      - tignaltofansv5.global.ssl.fastly.net
+- name: '🇬🇧 Англия #34'
   type: vless
   server: 146.75.117.91
   port: 80
@@ -414,7 +505,19 @@ proxies:
     headers:
       Host:
       - tignaltofansv5.global.ssl.fastly.net
-- name: '🇬🇧 Англия #28'
+- name: '🇬🇧 Англия #35'
+  type: vless
+  server: s642.ccgfw.top
+  port: 443
+  uuid: 1c65bee4-bc54-364c-8988-6a5912fda891
+  flow: xtls-rprx-vision
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: u723829u4c78s642.ccgfw.top
+  client-fingerprint: random
+  network: tcp
+- name: '🇬🇧 Англия #36'
   type: vless
   server: s643.ccgfw.top
   port: 443
@@ -426,25 +529,46 @@ proxies:
   servername: u723829u7190s643.ccgfw.top
   client-fingerprint: random
   network: tcp
-- name: '🇬🇧 Англия #29'
+- name: '🇬🇧 Англия #37'
   type: vless
-  server: 8.208.22.155
-  port: 10034
-  uuid: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
+  server: s643.ccgfw.top
+  port: 443
+  uuid: 1c65bee4-bc54-364c-8988-6a5912fda891
+  flow: xtls-rprx-vision
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: u723829u7190s643.ccgfw.top
+  client-fingerprint: random
+  network: tcp
+- name: '🇬🇧 Англия #38'
+  type: vless
+  server: s644.ccgfw.top
+  port: 443
+  uuid: 1c65bee4-bc54-364c-8988-6a5912fda891
+  flow: xtls-rprx-vision
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: u723829ud3c8s644.ccgfw.top
+  client-fingerprint: random
+  network: tcp
+- name: '🇬🇧 Англия #39'
+  type: vless
+  server: 31.76.126.141
+  port: 2040
+  uuid: 17451fec-af94-4715-8c2f-7f6839130d0a
   flow: ''
   udp: true
   skip-cert-verify: false
+  tls: true
+  servername: tradingview.com
+  client-fingerprint: qq
+  reality-opts:
+    public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
+    short-id: 53197c66aef53c44
   network: tcp
-- name: '🇬🇧 Англия #30'
-  type: vless
-  server: 8.208.22.155
-  port: 10034
-  uuid: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
-  flow: ''
-  udp: true
-  skip-cert-verify: false
-  network: tcp
-- name: '🇺🇸 США #31'
+- name: '🇺🇸 США #40'
   type: vless
   server: s77.okgfwbackxyz.xyz
   port: 443
@@ -455,7 +579,7 @@ proxies:
   tls: true
   servername: u723829us77.okgfwbackxyz.xyz
   network: tcp
-- name: '🇺🇸 США #32'
+- name: '🇺🇸 США #41'
   type: vless
   server: s860.okgfwbackxyz.xyz
   port: 443
@@ -466,34 +590,89 @@ proxies:
   tls: true
   servername: u723829us860.okgfwbackxyz.xyz
   network: tcp
-- name: '🇺🇸 США #33'
+- name: '🇺🇸 США #42'
   type: vless
-  server: 47.77.214.201
-  port: 10035
-  uuid: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
+  server: g.mamadtella.com
+  port: 40443
+  uuid: 2aea3581-48a7-4ca1-aa29-6fd662be5af1
   flow: ''
   udp: true
   skip-cert-verify: false
   network: tcp
-- name: '🇨🇿 Чехия #34'
+- name: '🇺🇸 США #43'
   type: vless
-  server: tun2.axenet.company
-  port: 2087
-  uuid: e6d74f1f-bce5-43e3-b65a-63bb6d825764
+  server: 185.106.96.231
+  port: 443
+  uuid: 7402e534-54dc-34cc-ac5b-c85ac6e236fd
   flow: ''
   udp: true
   skip-cert-verify: false
   tls: true
-  servername: tun2.lorateam.org
+  servername: u785109us559.ccgfw.top
+  client-fingerprint: random
   network: http
   http-opts:
     method: GET
     path:
-    - /513sas?
+    - ssp-xhttp
     headers:
       Host:
-      - tun2.lorateam.org
-- name: '🇬🇧 Англия #35'
+      - s559.ccgfw.top
+- name: '🇺🇸 США #44'
+  type: vless
+  server: 185.106.96.231
+  port: 443
+  uuid: 7402e534-54dc-34cc-ac5b-c85ac6e236fd
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: u785109us848.ccgfw.top
+  client-fingerprint: random
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - ssp-xhttp
+    headers:
+      Host:
+      - s848.ccgfw.top
+- name: '🇨🇦 Канада #45'
+  type: vless
+  server: 185.18.250.252
+  port: 443
+  uuid: 9f135709-60a1-4a9b-b31c-78d326d8752a
+  flow: ''
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: www.middle.cc.cd
+  client-fingerprint: firefox
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /settings----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE
+    headers:
+      Host:
+      - www.middle.cc.cd
+- name: '🇨🇦 Канада #46'
+  type: vless
+  server: 154.92.9.156
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  flow: ''
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: Worker-Dry-Heart-073a.Eqoniqaq.Workers.Dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed%3D2048
+    headers:
+      Host: workEr-dRy-heaRt-073A.eqoniqAq.workeRs.dEv
+- name: '🇬🇧 Англия #47'
   type: vless
   server: g4.steptofsvo.com
   port: 443
@@ -508,22 +687,22 @@ proxies:
     public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
     short-id: 6d6f13013d3e1d0c
   network: tcp
-- name: '🇬🇧 Англия #36'
+- name: '🇬🇧 Англия #48'
   type: vless
-  server: g5.steptofsvo.com
-  port: 443
-  uuid: 4550993c-2191-493a-a612-aaba4a4ec083
-  flow: xtls-rprx-vision
+  server: 206.245.166.30
+  port: 19086
+  uuid: bbab81f3-87a0-4e63-8b3b-010c645d8da7
+  flow: ''
   udp: true
   skip-cert-verify: false
   tls: true
-  servername: g5.steptofsvo.com
-  client-fingerprint: randomized
+  servername: aws.amazon.com
+  client-fingerprint: chrome
   reality-opts:
-    public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
-    short-id: 6d6f13013d3e1d0c
+    public-key: kqxGDdiponmkTCDv557pl4WHU4UilEhr6KbRbkjZQxw
+    short-id: c09573b120b513
   network: tcp
-- name: '🇵🇱 Польша #37'
+- name: '🇵🇱 Польша #49'
   type: vless
   server: pl-1.illusion-vpn.ru
   port: 443
@@ -538,15 +717,26 @@ proxies:
     public-key: ExcIQDzOvrpzbDgbLufmt33F-ObNGHXx6rjEvzn76jI
     short-id: 2e83619c7975b870
   network: tcp
+- name: '🇹🇷 Турция #50'
+  type: vless
+  server: 82.47.22.163
+  port: 443
+  uuid: 1c65bee4-bc54-364c-8988-6a5912fda891
+  flow: xtls-rprx-vision
+  udp: true
+  skip-cert-verify: false
+  tls: true
+  servername: u723829us348.okgfw.top
+  network: tcp
 proxy-groups:
 - name: PROXY
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - '🇧🇪 Бельгия #1'
-  - '🇨🇿 Чехия #2'
-  - '🇫🇮 Финляндия #3'
+  - '🇫🇷 Франция #1'
+  - '🇫🇷 Франция #2'
+  - '🇫🇷 Франция #3'
   - '🇫🇷 Франция #4'
   - '🇫🇷 Франция #5'
   - '🇫🇷 Франция #6'
@@ -559,28 +749,41 @@ proxy-groups:
   - '🇩🇪 Германия #13'
   - '🇩🇪 Германия #14'
   - '🇩🇪 Германия #15'
-  - '🇭🇰 Xolirx #16'
-  - '🇭🇺 Венгрия #17'
-  - '🇰🇿 Xolirx #18'
-  - '🇱🇻 Латвия #19'
-  - '🇱🇻 Латвия #20'
-  - '🇸🇬 Сингапур #21'
-  - '🇸🇬 Сингапур #22'
-  - '🇳🇱 Нидерланды #23'
-  - '🇳🇱 Нидерланды #24'
-  - '🇳🇱 Нидерланды #25'
-  - '🇳🇱 Нидерланды #26'
-  - '🇬🇧 Англия #27'
-  - '🇬🇧 Англия #28'
-  - '🇬🇧 Англия #29'
-  - '🇬🇧 Англия #30'
-  - '🇺🇸 США #31'
-  - '🇺🇸 США #32'
-  - '🇺🇸 США #33'
-  - '🇨🇿 Чехия #34'
+  - '🇩🇪 Германия #16'
+  - '🇭🇰 Xolirx #17'
+  - '🇭🇺 Венгрия #18'
+  - '🇭🇺 Венгрия #19'
+  - '🇭🇺 Венгрия #20'
+  - '🇭🇺 Венгрия #21'
+  - '🇱🇻 Латвия #22'
+  - '🇷🇴 Румыния #23'
+  - '🇸🇬 Сингапур #24'
+  - '🇸🇬 Сингапур #25'
+  - '🇸🇬 Сингапур #26'
+  - '🇳🇱 Нидерланды #27'
+  - '🇳🇱 Нидерланды #28'
+  - '🇳🇱 Нидерланды #29'
+  - '🇳🇱 Нидерланды #30'
+  - '🇳🇱 Нидерланды #31'
+  - '🇹🇷 Турция #32'
+  - '🇬🇧 Англия #33'
+  - '🇬🇧 Англия #34'
   - '🇬🇧 Англия #35'
   - '🇬🇧 Англия #36'
-  - '🇵🇱 Польша #37'
+  - '🇬🇧 Англия #37'
+  - '🇬🇧 Англия #38'
+  - '🇬🇧 Англия #39'
+  - '🇺🇸 США #40'
+  - '🇺🇸 США #41'
+  - '🇺🇸 США #42'
+  - '🇺🇸 США #43'
+  - '🇺🇸 США #44'
+  - '🇨🇦 Канада #45'
+  - '🇨🇦 Канада #46'
+  - '🇬🇧 Англия #47'
+  - '🇬🇧 Англия #48'
+  - '🇵🇱 Польша #49'
+  - '🇹🇷 Турция #50'
 - name: DIRECT
   type: select
   proxies:
