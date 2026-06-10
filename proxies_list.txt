@@ -1,5 +1,5 @@
 # XolirX MTProto Proxies
-# Updated: 2026-06-10 14:34:09 MSK
+# Updated: 2026-06-10 15:34:13 MSK
 # Total: 114
 
 tg://proxy?server=172.65.105.152&port=25565&secret=FgMBAgABAAH8AxOG4kw63Q
