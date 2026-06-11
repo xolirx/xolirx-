@@ -1,5 +1,5 @@
 # XolirX MTProto Proxies
-# Updated: 2026-06-11 17:35:32 MSK
+# Updated: 2026-06-11 18:35:35 MSK
 # Total: 110
 
 tg://proxy?server=iran.protocolsix.info&port=25565&secret=ee1603010200010001fc030386e24c3add626973636f7474692e79656b74616e65742e636f6d
