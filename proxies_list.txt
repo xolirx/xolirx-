@@ -1,5 +1,5 @@
 # XolirX MTProto Proxies
-# Updated: 2026-06-12 13:36:34 MSK
+# Updated: 2026-06-12 14:36:37 MSK
 # Total: 4
 
 tg://proxy?server=sitemcinet.co.uk&port=443&secret=7gAA8A8Pd1VV____9QBuLmltZWRpYS5zdGVhbXBvd2VyZWQuY29t
